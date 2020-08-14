@@ -12,9 +12,9 @@ The dataset contains seven symptoms of COVID. Below is the description of each v
 - Symptoms: According to WHO, 5 are major symptoms of COVID-19 (Fever, Tiredness, Difficulty in breathing, Dry cough, and sore throat)
 - Experience any other symptoms: Pains, Nasal Congestion, Runny Nose, Diarrhea and Other.
 - Severity: The level of severity (Mild, Moderate, Severe)
-- Contact: Has the person been exposed to a COVID-19 Patient
+- Contact: Has the person been exposed to a COVID-19 Patient"
 
-There are 316,800 data point.
+There are 316,800 rows in this dataset.
 
 # Question 
 We hope to answer 
