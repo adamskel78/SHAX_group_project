@@ -2,7 +2,7 @@
 
 
 # Data: 
-(Kaggle's COVID-19 Symptoms Checker)![https://www.kaggle.com/harshaggarwal7/covid-19-symptom-analysis]
+[Kaggle's COVID-19 Symptoms Checker!](https://www.kaggle.com/harshaggarwal7/covid-19-symptom-analysis)
 
 "The data will help to identify whether a person has coronavirus disease based on some pre-defined standard symptoms. These symptoms are based on guidelines given by the World Health Organization (WHO) and the Ministry of Health and Family Welfare, India.
 
