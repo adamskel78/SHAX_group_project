@@ -33,5 +33,7 @@ Can a logistic regression predict the severity level of a patient with moderate 
 
 # Communication Protocol
 Medium of communication for updates: Slack
-Video calls for group meetings: Zoom or Google Hangout
+Video calls for group meetings to discuss roles/responsiblities, timelines, discuss conflicts: Zoom or Google Hangout
 Meeting Days: Tuesday, Thursday, and Saturday or Sunday
+Attending office hours to get help from TAs.
+
