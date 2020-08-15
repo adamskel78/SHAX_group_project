@@ -32,8 +32,8 @@ Can a logistic regression predict the severity level of a patient with moderate 
 [Technology Used](https://github.com/adamskel78/SHAX_group_project/blob/shannon/technology.md)
 
 # Communication Protocol
-Medium of communication for updates: Slack
-Video calls for group meetings to discuss roles/responsiblities, timelines, discuss conflicts: Zoom or Google Hangout
-Meeting Days: Tuesday, Thursday, and Saturday or Sunday
-Attending office hours to get help from TAs.
+- Medium of communication for updates: Slack
+- Video calls for group meetings to discuss roles/responsiblities, timelines, discuss conflicts: Zoom or Google Hangout
+- Meeting Days: Tuesday, Thursday, and Saturday or Sunday
+- Attending office hours to get help from TAs.
 
