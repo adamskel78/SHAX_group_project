@@ -1,31 +1,39 @@
-# COVID-19 Chatbot Project
-On December 2019 in Wuhan, Hubei, China, COVID-19, an infectious disease caused by the SARS-CoV-2, was first identified and has since spread through out the world. "As of 14 August 2020, more than 21 million cases have been reported across 188 countries and territories, resulting in more than 761,000 deaths (Wikipedia)." 
+# Cardiovascular Chatbot Project
+"Cardiovascular disease (CVD) is a class of disease that involves the heart or blood vessels." "It is the leading cause of death in all areas of the world expect Africa. Together CVD resulted in 17.9 million deaths in 2015, up from 12.3 million in 1990", but yet it is estimated that up to 90% of CVD may be preventable."
 
-Everyone's everyday life has been dispersed by COVID-19, and our group would like to help others detemine the severity level (Mild, Moderate, Severe, None) if they were to catch COVID-19 and if time permits give others a course of action based off of the inputs the user give us.
+Knowing this our group became interested in predicting whether a person is at risk of cardiovascular disease based of personal data (height, weight, systolic blood pressure, diastolic blood pressure, cholesterol levels, glucose levels, etc). We want to present this through a chatbot where users interact with a chatbot by inputing their personal data, and the chatbot responds with the possibility of having cardiovascular disease. If time permits, we want to reccommend users course of action such as healthy eating, exercise, limiting alcohol intake based off of the chatbot prediction of having or not having cardiovascular disease.
 
-We would like to present this through a chatbot where users can input their age, symptoms they have to determine the severity level (Mild, Moderate, Severe, None) if they were to have COVID.
-
-**Disclaimer**: This is not an official recommendation of what patients should do. Please call a medical professional if you think you have COVID-19.
+**Disclaimer**: This is not an official recommendation of what patients should do. Please call a medical professional if you are at risk of cardiovascular disease.
 
 # Data
-[Kaggle's COVID-19 Symptoms Checker](https://www.kaggle.com/harshaggarwal7/covid-19-symptom-analysis)
+[Kaggle's Cardiovascular Disease Dataset](https://www.kaggle.com/sulianova/cardiovascular-disease-dataset/notebooks)
 
-"The data will help to identify whether a person has coronavirus disease based on some pre-defined standard symptoms. These symptoms are based on guidelines given by the World Health Organization (WHO) and the Ministry of Health and Family Welfare, India.
+"There are 3 types of input features:
 
-The dataset contains seven symptoms of COVID. Below is the description of each variable: 
-- Country: List of countries person visited.
-- Age: Classification of the age group for each person, based on WHO Age Group Standard
-- Symptoms: According to WHO, 5 are major symptoms of COVID-19 (Fever, Tiredness, Difficulty in breathing, Dry cough, and sore throat)
-- Experience any other symptoms: Pains, Nasal Congestion, Runny Nose, Diarrhea and Other.
-- Severity: The level of severity (Mild, Moderate, Severe, None)
-- Contact: Has the person been exposed to a COVID-19 Patient"
+Objective: factual information;
+Examination: results of medical examination;
+Subjective: information given by the patient.
 
-There are 316,800 rows in this dataset.
+Features:
+- Age (Objective Feature, age, int (days))
+- Height (Objective Feature, height int (cm))
+- Weight (Objective Feature, weight, float (kg)) 
+- Gender (Objective Feature, gender, categorical code)
+- Systolic blood pressure (Examination Feature, ap_hi int)
+- Diastolic blood pressure (Examination Feature, ap_lo int)
+- Cholesterol (Examination Feature, cholesterol, 1: normal, 2: above normal, 3: well above normal)
+- Glucose (Examination Feature, gluc, 1: normal, 2: above normal, 3: well above normal)
+- Smoking (Subjective Feature, smoke, binary)
+- Alcohol intake (Subjective Feature, alco, binary)
+- Physical activity (Subjective Feature, active, binary)
+- Presence or absence of cardiovascular disease (Target Variable, cardio, binary)
+
+There are 70,000 records of patients data."
 
 # Question 
 We are going to use the data to perform a logistic regression.
 
-Can a logistic regression predict the severity level of a patient with moderate accuracy?
+Can a logistic regression predict the whether a patient has cardiovasular disease with moderate accuracy?
 
 
 # Technology
