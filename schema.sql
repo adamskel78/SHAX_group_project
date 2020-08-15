@@ -1,9 +1,9 @@
 CREATE TABLE cardio_table (
   id INTEGER,
-  age varchar,
+  age BIGINT,
   gender INTEGER,
   height INTEGER,
-  weight_patient varchar,
+  weight_patient DECIMAL,
   ap_hi INTEGER,
   ap_lo INTEGER,
   cholesterol INTEGER,
@@ -17,6 +17,6 @@ CREATE TABLE cardio_table (
 Select * From cardio_table;
 drop table cardio_table;
 
-copy cardio_table
+COPY cardio_table
 From '/Users/adamskel78/Desktop/Data_Analyst/SHAX_group_project/Resources/cardio_train.csv'
 DELIMITER ';' CSV HEADER; 
