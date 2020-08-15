@@ -44,3 +44,11 @@ Can a logistic regression predict whether a patient has cardiovasular disease wi
 - Video calls for group meetings to discuss roles/responsiblities, timelines, discuss conflicts: Zoom or Google Hangout
 - Meeting Days: Tuesday, Thursday, and Saturday or Sunday
 - Attending office hours to get help from TAs.
+
+# Group Members:
+- Adam Skelton
+- Xiao Meng
+- Shannon Dang
+- Steve Manz
+
+# Deadline: September 13 at 11:59PM
