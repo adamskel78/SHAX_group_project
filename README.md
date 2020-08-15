@@ -1,4 +1,4 @@
-# COVID Chatbot Project
+# COVID-19 Chatbot Project
 On December 2019 in Wuhan, Hubei, China, COVID-19, an infectious disease caused by the SARS-CoV-2, was first identified and has since spread through out the world. "As of 14 August 2020, more than 21 million cases have been reported across 188 countries and territories, resulting in more than 761,000 deaths (Wikipedia)." 
 
 Everyone's everyday life has been dispersed by COVID-19, and our group would like to help others detemine the severity level (Mild, Moderate, Severe, None) if they were to catch COVID-19 and if time permits give others a course of action based off of the inputs the user give us.
