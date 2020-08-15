@@ -33,7 +33,7 @@ There are 70,000 records of patients data."
 # Question 
 We are going to use the data to perform a logistic regression.
 
-Can a logistic regression predict the whether a patient has cardiovasular disease with moderate accuracy?
+Can a logistic regression predict whether a patient has cardiovasular disease with moderate accuracy?
 
 
 # Technology

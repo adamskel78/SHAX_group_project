@@ -6,7 +6,7 @@ We are using Python to analysis our data. The dataset we found from Kaggle is al
 We are using PostgresSQL to store our data, so far we plan to use only one dataset, so we won't be using PostgresSQL to create relationships between differnt tables.
 
 ## Machine Learning
-SciKitLearn is the ML library we'll be using to create a classifier. Our training and testing setup is to predict the severity of their condition if the someone were to catch COVID. We haven't decided how to split the data yet, but our target group is severity and our dependent variables are COVID symptons: fever, tiredness, dry cough, difficulty in breathing, sore throat, none sympton, pain, nasal congestion, runny nose, diarrhea, none experiencing. We're going to use logistic regression.
+SciKitLearn is the ML library we'll be using to create a classifier. Our training and testing setup is to predict the whether a patient has or doesn't have cardiovascular disease. We haven't decided how to split the data yet.
 
 ## Dashboard
-We are planning to display our results through a chatbot where the user inputs their symptoms and the chatbot will respond whether the user will have a mild, moderate, sereve, or no case of COVID if they were to get it.We will have other visualizations of the results of our logistic regression as well.
+We are planning to display our results through a chatbot where the user inputs their personal data and the chatbot will respond whether the user has or doesn't have cardiovascular disease.We will have other visualizations of the results of our logistic regression as well.
