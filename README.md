@@ -5,7 +5,7 @@ Everyone's everyday life has been dispersed by COVID-19, and our group would lik
 
 We would like to present this through a chatbot where users can input their age, symptoms they have to determine the severity level (Mild, Moderate, Severe, None) if they were to have COVID.
 
-Disclaimer: This is not an official recommendation of what patients should do. Please call a medical professional if you think you have COVID-19.
+**Disclaimer**: This is not an official recommendation of what patients should do. Please call a medical professional if you think you have COVID-19.
 
 # Data
 [Kaggle's COVID-19 Symptoms Checker](https://www.kaggle.com/harshaggarwal7/covid-19-symptom-analysis)
@@ -36,4 +36,3 @@ Can a logistic regression predict the severity level of a patient with moderate 
 - Video calls for group meetings to discuss roles/responsiblities, timelines, discuss conflicts: Zoom or Google Hangout
 - Meeting Days: Tuesday, Thursday, and Saturday or Sunday
 - Attending office hours to get help from TAs.
-
