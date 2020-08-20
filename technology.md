@@ -9,4 +9,4 @@ We are using PostgresSQL to store our data, so far we plan to use only one datas
 SciKitLearn is the ML library we'll be using to create a classifier. Our training and testing setup is to predict the whether a patient has or doesn't have cardiovascular disease. We haven't decided how to split the data yet.
 
 ## Dashboard
-We are planning to display our results through a chatbot where the user inputs their personal data and the chatbot will respond whether the user has or doesn't have cardiovascular disease.We will have other visualizations of the results of our logistic regression as well.
+We are planning to display our results through a chatbot where the user inputs their personal data and the chatbot will respond whether the user has or doesn't have cardiovascular disease. We will have other visualizations of the results of our logistic regression as well.
