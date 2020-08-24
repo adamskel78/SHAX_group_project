@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <div class="logo"></div>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Cardiovascular Disease Checker</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+      
+        <style>
+        .jumbotron{
+            background-image: url("../images/heart_mid.jpeg");
+            background-size: auto 100%;
+            background-repeat: no-repeat;
+            background-position: top;
+            background-color:rgb(17, 24,53);
+            color: whitesmoke;
+            text-align: center;}
+        
+            .chart {
+            max-height: calc(200px + 20px) !important;
+            overflow:hidden;}
+        </style>  
+
+    <link rel="stylesheet" href="static/css/style.css">
+  </head>
+  
+  <body style="background-color:whitesmoke;">
+      <div class="container">
+          <div class="row">
+              <div class="jumbotron">
+                  <h1>Cardiovascular Disease Checker</h1>
+                  <p>Use the interactive form below to get the probability of getting Cardiovascular Disease</p>
+                  <p>Use the interactive charts below check the dataset</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="row">
+                    <div class="col-md-6" style="background-color:rgb(17, 24,53)">
+                        <form style="background-color:rgb(17, 24,53)"> 
+                            <p style="color: whitesmoke;"><b>Enter Your Data Below</b></p>
+                            <ul class="list-group">
+                                <li class="list-group-item" style="background-color:rgb(122,22,40)">
+                                    <p><label for="age" style="color:whitesmoke;">Age</label>
+                                        <input type="text" class="form-control form-control-sm"  placeholder="Enter a number" id="age"/>
+                                    </p>
+
+                                    <!--<p></p><label for="gender" style="color:whitesmoke;">Gender</label>
+                                        <select id = "myList">
+                                            <option value="1">Female</option>
+                                            <option value="2">Male</option>
+                                        </select>
+                                      </p>-->
+                                    <!--<input type="text" class="form-control form-control-sm" placeholder="Enter 1 or 2" id="gender" /> -->
+                                    
+
+                                    <p><label for="height" style="color: whitesmoke;">Height (cm)</label>
+                                        <input type="text" class="form-control form-control-sm" placeholder="Enter a number " id="height" />
+                                    </p>
+                                    
+                                    <p><label for="weight" style="color: whitesmoke;">Weight (kg)</label>
+                                        <input type="text" class="form-control form-control-sm" placeholder="Enter a number" id="weight" />
+                                    </p>
+                                    
+                                    <p><label for="ap_hi" style="color: whitesmoke;">Systolic blood pressure</label>
+                                        <input type="text" class="form-control form-control-sm" placeholder="Enter a number" id="ap_hi" />
+                                    </p> 
+                                    
+                                    <p><label for="ap_lo" style="color: whitesmoke;">Diastolic blood pressure</label>
+                                        <input type="text" class="form-control form-control-sm" placeholder="Enter a number" id="ap_lo" />
+                                    </p>
+                                    
+                                    <p><label for="cholesterol" style="color: whitesmoke;">Cholesterol</label>
+                                        <select id = "myList">
+                                            <option value="1">Normal</option>
+                                            <option value="2">Above Normal</option>
+                                            <option value="3">Well Above Normal</option>
+                                        </select>
+                                      </p>
+                                        <!--<input type="text" class="form-control form-control-sm" placeholder="Enter 1, 2, or 3" id="cholesterol" /><--> 
+                                    
+                                    
+                                    <!--<p><label for="gluc" style="color: whitesmoke;">Glucose</label>
+                                        <select id = "myList">
+                                            <option value="1">Normal</option>
+                                            <option value="2">Above Normal</option>
+                                            <option value="3">Well Above Normal</option>
+                                        </select>
+                                      </p>-->
+                                        <!--<input type="text" class="form-control form-control-sm" placeholder="Enter 1, 2, or 3" id="gluc" />--> 
+                                    
+
+                                    <!--<p><label for="smoke" style="color: whitesmoke;">Do you smoke?</label>
+                                        <select id = "myList">
+                                            <option value="1">Yes</option>
+                                            <option value="0">No</option>
+                                        </select>
+                                      </p>-->
+                                        <!--<input type="text" class="form-control form-control-sm" placeholder="Enter 1 or 0" id="smoke" /> -->
+                                    
+                                    <!--<p><label for="alco" style="color: whitesmoke;">Do you drink alcohol?</label>
+                                        <select id = "myList">
+                                            <option value="1">Yes</option>
+                                            <option value="0">No</option>
+                                        </select>
+                                    </p>-->
+                                        <!--<input type="text" class="form-control form-control-sm" placeholder="Enter 1 or 0" id="alco" />-->
+                                    
+
+                                    <!--<p><label for="active" style="color: whitesmoke;">Are you active?</label>
+                                        <select id = "myList">
+                                            <option value="1">Yes</option>
+                                            <option value="0">No</option>
+                                        </select>
+                                      </p>-->
+                                        <!--<input type="text" class="form-control form-control-sm" placeholder="Enter 1 or 0" id="active" />-->
+                                    
+        
+                                </li>
+                                <li class="list-group-item" style="background-color:rgb(122,22,40)">
+                                    <button id="filter-btn" type="button" style=color: whitesmoke;">Submit</button>
+                                </li>
+                            </ul>
+                        </form>
+                    </div>
+        
+                    <div class="col-md-6" style="background-color:rgb(17, 24,53);">
+                        <table class="table table-striped">
+                            <thead>
+                                <tr>
+                                <th style="color: whitesmoke;">Probability of Cardiovascular Disease: </th>
+                                </tr>
+                                <tr><td id='result'></td></tr>
+                            </thead>
+                            <tbody>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.16.0/d3.min.js"></script>
+    <script src="static/app.js"></script>
+
+  </body>
