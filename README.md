@@ -5,7 +5,7 @@ Knowing this our group became interested in predicting whether a person is at ri
 
 **Disclaimer**: This is not an official recommendation of what patients should do. Please call a medical professional if you are at risk of cardiovascular disease.
 
-# Data
+## Data
 [Kaggle's Cardiovascular Disease Dataset](https://www.kaggle.com/sulianova/cardiovascular-disease-dataset/notebooks)
 
 "There are 3 types of input features:
@@ -30,20 +30,20 @@ Features:
 
 There are 70,000 records of patients data."
 
-# Questions Hope to Answer with this data
+## Questions Hope to Answer with this data
 We want to answer what health factors are correlated with Cardiovascular Disease and make predition of the probability of getting Cardiovascular Disease given new inputs.
 
-# EDA
+## EDA
 We conducted exploratory data analysis (EDA) to this dataset to analyze main characteristics and provide information for the formal modeling task.
 
 To do..
 - Need some charts here.
 
 
-# Technology
+## Technology
 [Technology Used](https://github.com/adamskel78/SHAX_group_project/blob/shannon/technology.md)
 
-## Model Selection
+### Model Selection
 
 We performed the following machine learning models:
 
@@ -54,7 +54,7 @@ We performed the following machine learning models:
 
 We choose Random Forest Model as our predicting model based on the comparisons of model training and validating accuracy.
 
-## Tools
+### Tools
 - Postgres for creating a database
 - pgAdmin4 for working with the data imported
 - QuickDBD for Entity Relationship Diagrams(ERD)
@@ -69,17 +69,17 @@ We choose Random Forest Model as our predicting model based on the comparisons o
     - matplotlib
     - seaborn
 
-## Resources
+### Resources
 - HTML Styles
     - Bootstrap stylesheet
         - Bootstrap Jumbotron component
 - Images
 
-# Results
+## Results
 
 We tuned the parameters of Random Forest Model and get training accuracy 0.73 and validationg accuracy 0.729. 
 
-# Communication Protocol
+## Communication Protocol
 - Medium of communication for updates: Slack
 - Video calls for group meetings to discuss roles/responsiblities, timelines, discuss conflicts: Zoom or Google Hangout
 - Meeting Days: Tuesday, Thursday, and Saturday or Sunday
