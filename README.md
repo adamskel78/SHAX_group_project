@@ -41,8 +41,10 @@ We conducted exploratory data analysis (EDA) to this dataset to analyze main cha
 [Technology Used](https://github.com/adamskel78/SHAX_group_project/blob/shannon/technology.md)
 
 ## Model Selection
+
 We performed the following machine learning models:
-    - Logistic Model
+
+- Logistic Model
     - Decision Tree Model
     - Random Forest Model
     - Gradient Boosting Model
@@ -50,25 +52,25 @@ We performed the following machine learning models:
 We choose Random Forest Model as our predicting model based on the comparisons of model training and validating accuracy.
 
 ## Tools
-    - Postgres for creating a database
-    - pgAdmin4 for working with the data imported
-    - QuickDBD for Entity Relationship Diagrams(ERD)
-    - JavaScript library: D3.js
-    - VS Code
-    - Google Chrome
-    - Plotly.js
-    - Python Libraries: 
-        - numpy
-        - pandas
-        - sklearn
-        - matplotlib
-        - seaborn
+- Postgres for creating a database
+- pgAdmin4 for working with the data imported
+- QuickDBD for Entity Relationship Diagrams(ERD)
+- JavaScript library: D3.js
+- VS Code
+- Google Chrome
+- Plotly.js
+- Python Libraries: 
+    - numpy
+    - pandas
+    - sklearn
+    - matplotlib
+    - seaborn
 
 ## Resources
-    - HTML Styles
-        - Bootstrap stylesheet
-            - Bootstrap Jumbotron component
-    - Images
+- HTML Styles
+    - Bootstrap stylesheet
+        - Bootstrap Jumbotron component
+- Images
 
 # Results
 
