@@ -59,6 +59,7 @@ We choose Random Forest Model as our predicting model based on the comparisons o
 - pgAdmin4 for working with the data imported
 - QuickDBD for Entity Relationship Diagrams(ERD)
 - JavaScript library: D3.js
+- SQLAlchemy
 - VS Code
 - Google Chrome
 - Plotly.js
