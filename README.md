@@ -36,6 +36,9 @@ We want to answer what health factors are correlated with Cardiovascular Disease
 # EDA
 We conducted exploratory data analysis (EDA) to this dataset to analyze main characteristics and provide information for the formal modeling task.
 
+To do..
+- Need some charts here.
+
 
 # Technology
 [Technology Used](https://github.com/adamskel78/SHAX_group_project/blob/shannon/technology.md)
@@ -74,7 +77,7 @@ We choose Random Forest Model as our predicting model based on the comparisons o
 
 # Results
 
-We
+We tuned the parameters of Random Forest Model and get training accuracy 0.73 and validationg accuracy 0.729. 
 
 # Communication Protocol
 - Medium of communication for updates: Slack
