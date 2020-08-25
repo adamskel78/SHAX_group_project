@@ -1,7 +1,7 @@
-# Cardiovascular Chatbot Project
+# Cardiovascular Disease Checker Project
 "Cardiovascular disease (CVD) is a class of disease that involves the heart or blood vessels." "It is the leading cause of death in all areas of the world expect Africa. Together CVD resulted in 17.9 million deaths in 2015, up from 12.3 million in 1990", but yet it is estimated that up to 90% of CVD may be preventable."
 
-Knowing this our group became interested in predicting whether a person is at risk of cardiovascular disease based of personal data (height, weight, systolic blood pressure, diastolic blood pressure, cholesterol levels, glucose levels, etc). We want to present this through a chatbot where users interact with a chatbot by inputing their personal data, and the chatbot responds with the possibility of having cardiovascular disease. If time permits, we want to reccommend users course of action such as healthy eating, exercise, limiting alcohol intake based off of the chatbot prediction of having or not having cardiovascular disease.
+Knowing this our group became interested in predicting whether a person is at risk of cardiovascular disease based of individual demographic and health status data (age, height, weight, systolic blood pressure, diastolic blood pressure, cholesterol levels, glucose levels, etc). We want to present this through a web application where users interact with the app by inputing their personal data, and the app responds with the probability of having cardiovascular disease. If time permits, we want to reccommend users course of action such as healthy eating, exercise, limiting alcohol intake based off of the prediction of probability of getting cardiovascular disease.
 
 **Disclaimer**: This is not an official recommendation of what patients should do. Please call a medical professional if you are at risk of cardiovascular disease.
 
@@ -30,17 +30,52 @@ Features:
 
 There are 70,000 records of patients data."
 
-# Question 
-We are going to use the data to perform a logistic regression.
+# Questions Hope to Answer with this data
+We want to answer what health factors are correlated with Cardiovascular Disease and make predition of the probability of getting Cardiovascular Disease given new inputs.
 
-Can a logistic regression predict whether a patient has cardiovasular disease with moderate accuracy?
+# EDA
+We conducted exploratory data analysis (EDA) to this dataset to analyze main characteristics and provide information for the formal modeling task.
 
 
 # Technology
 [Technology Used](https://github.com/adamskel78/SHAX_group_project/blob/shannon/technology.md)
 
+## Model Selection
+We performed the following machine learning models:
+    - Logistic Model
+    - Decision Tree Model
+    - Random Forest Model
+    - Gradient Boosting Model
+
+We choose Random Forest Model as our predicting model based on the comparisons of model training and validating accuracy.
+
+## Tools
+    - Postgres for creating a database
+    - pgAdmin4 for working with the data imported
+    - QuickDBD for Entity Relationship Diagrams(ERD)
+    - JavaScript library: D3.js
+    - VS Code
+    - Google Chrome
+    - Plotly.js
+    - Python Libraries: 
+        - numpy
+        - pandas
+        - sklearn
+        - matplotlib
+        - seaborn
+
+## Resources
+    - HTML Styles
+        - Bootstrap stylesheet
+            - Bootstrap Jumbotron component
+    - Images
+
+# Results
+
+We
+
 # Communication Protocol
 - Medium of communication for updates: Slack
 - Video calls for group meetings to discuss roles/responsiblities, timelines, discuss conflicts: Zoom or Google Hangout
 - Meeting Days: Tuesday, Thursday, and Saturday or Sunday
-- Attending office hours to get help from TAs.
+- Attending office hours to get help from instructor and TAs.
