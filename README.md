@@ -69,11 +69,11 @@ We choose Random Forest Model as our predicting model based on the comparisons o
     - matplotlib
     - seaborn
 
-    ## Resources
-    - HTML Styles
-        - Bootstrap stylesheet
+## Resources
+- HTML Styles
+    - Bootstrap stylesheet
         - Bootstrap Jumbotron component
-    - Images
+- Images
 
 # Results
 
