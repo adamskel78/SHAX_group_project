@@ -83,10 +83,12 @@ We tuned the parameters of Random Forest Model and get training accuracy 0.73 an
 - Medium of communication for updates: Slack
 - Video calls for group meetings to discuss roles/responsiblities, timelines, discuss conflicts: Zoom or Google Hangout
 - Meeting Days: Tuesday, Thursday, and Saturday or Sunday
-- Attending office hours to get help from instructor and TAs.
+- Attending office hours to get help from TAs.
 
 ## Group Members:
 - Adam Skelton
 - Xiao Meng
 - Shannon Dang
 - Steve Manz
+
+## Deadline: September 13 at 11:59PM
