@@ -27,7 +27,7 @@ Features:
 | Systolic blood pressure   | Examination Feature    | Integer   | ap_hi |
 | Diastolic blood pressure  | Examination Feature    | Integer   | ap_lo |
 | Cholesterol               | Examination Feature    | Categorical | 1 - normal, 2 - above normal, 3 - well above normal |
-| Glucose                   | ExaminationFeature     | Categorical | 1 - normal, 2 - above normal, 3 - well above normal |
+| Glucose                   | Examination Feature     | Categorical | 1 - normal, 2 - above normal, 3 - well above normal |
 | Smoking                   | Subjective Feature     | Binary | 0 - does not smoke, 1 - smoke |
 | Alcohol intake            | Subjective Feature     | Binary | 0 - drinks alcohol, 1 - drinks| 
 | Physical activity         | Subjective Feature     | Binary | 0 - does not exercise 1 - exercises|
@@ -36,9 +36,8 @@ Features:
 There are 70,000 records of patients data."
 
 # Question 
-What health factors are correlated with having cardiovascular disease?
-
 Which machine learning model provides the most accurate prediction for whether a patient has cardiovasular disease?
+What health factors are correlated with having cardiovascular disease?
 
 # Technology
 [Technology Used](https://github.com/adamskel78/SHAX_group_project/blob/shannon/technology.md)
