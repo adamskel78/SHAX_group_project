@@ -1,12 +1,37 @@
 # Technologies Used
-## Data Cleaning and Analysis
-We are using Python to analysis our data. The dataset we found from Kaggle is already cleaned, but if we find that it needs farther cleaning, we will be using Pandas. 
 
-## Database Storage
-We are using PostgresSQL to store our data, so far we plan to use only one dataset, so we won't be using PostgresSQL to create relationships between differnt tables.
+## Data Cleaning and Analysis
+We are used Python to analysis our data. For our dataset, the "age" column unit is days, so we converted days to years. We used matplotlib and seaborn to visualize our data. Pandas to get our csv file into a dataframe and used both numpy and pandas to interact with the dataframe.
+
+Python Libraries:
+- numpy
+- pandas
+- sklearn
+- matplotlib
+- seaborn
+
+## Database
+- PostgresSQL to store our data
+- pgAdmin4 for working with data imported
+- QuickDBD for Entity Relationship Diagrams (ERD)
+- SQLAlchemy
 
 ## Machine Learning
-SciKitLearn is the ML library we'll be using to create a classifier. Our training and testing setup is to predict the whether a patient has or doesn't have cardiovascular disease. We haven't decided how to split the data yet.
+sciKitLearn is the ML library we'll be using to create a classifier. Our training and testing setup is to predict the probability of having cardiovascular disease.
+
+sklearn modules:
+- LogisticRegression
+- DecisionTreeClassifier
+- GradientBoostingClassifier
+- RandomForestClassifier
+- KNeighborsClassifier
 
 ## Dashboard
-We are planning to display our results through a chatbot where the user inputs their personal data and the chatbot will respond whether the user has or doesn't have cardiovascular disease. We will have other visualizations of the results of our logistic regression as well.
+We are planning to display our results through an interactive web application where the user inputs their personal data, and the website will respond with the probability of the user having cardiovasular disease. 
+
+- JavaScript library: D3.js
+- Plotly.js
+- Image for jumbotron on web application
+- HTML Styles
+- Bootstrap stylesheet
+- Bootstrap Jumbotron component
