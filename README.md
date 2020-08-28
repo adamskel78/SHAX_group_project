@@ -50,12 +50,16 @@ Which machine learning model provides the most accurate prediction for whether a
 - Attending office hours to get help from TAs.
 
 # Feature Engineering / Feature Selection
-There are 11 features (age, height, weight, gender, systolic blood pressure, cholesterol, glucose, smoking, alcohol intake, physical activity). 
+There are 11 features (age, height, weight, gender, systolic blood pressure, diastolic blood pressure, cholesterol, glucose, smoking, alcohol intake, physical activity). 
 
-Some of which aren't correlated to the target variable, presence or absence of cardiovascular disease, thus we used the correlation matrix to determine which features do correlate to our target variable.
+Some of which aren't correlated to the target variable, presence or absence of cardiovascular disease, thus we used two methods to determine which feature to include in our machine learning model: correlation matrix and recursive feature elimination.
 
+## Correlation Matrix
 [Correlation Heat Map]()
 The last column on both axes is our target variable, cardio. Looking at those columns, we see that age (r = 0.24), weight (r = 0.18), ap_hi (0.054), ap_lo (0.066), cholesterol (r = 0.22) are weakly correlated with carido. Thus, we will choose these features in our machine learning models.
+
+## Recursive Feature Elimination
+
 
 # Machine Learning Models
 We performed the following machine learning models
