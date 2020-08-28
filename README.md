@@ -25,9 +25,9 @@ We want to present this through a web application where users interact with the 
 
 "There are 3 types of input features:
 
-Objective: factual information;
-Examination: results of medical examination;
-Subjective: information given by the patient.
+- Objective: factual information;
+- Examination: results of medical examination;
+- Subjective: information given by the patient.
 
 Features:
 | Features                |   Type of Feature        |   Type    | Unit  |
@@ -62,7 +62,7 @@ Some of which aren't correlated to the target variable, presence or absence of c
 
 ## Correlation Matrix
 ![Correlation Heat Map](https://github.com/adamskel78/SHAX_group_project/blob/shannon/Data%20Visuals/Corr_Matrix_Heat_Map.png)
-The last column on both axes is our target variable, cardio. Looking at those columns, we see that age (r = 0.24), weight (r = 0.18), ap_hi (0.054), ap_lo (0.066), cholesterol (r = 0.22) are weakly correlated with carido. Thus, we will consider these features for our machine learning models.
+The last column on both axes is our target variable, cardio. Looking at those columns, we see that age (r = 0.24), weight (r = 0.18), ap_hi (0.054), ap_lo (0.066), cholesterol (r = 0.22), and glucose (r = 0.089) are weakly correlated with carido. Thus, we will consider these features for our machine learning models.
 
 ## Recursive Feature Elimination (RFE)
 "Recursive feature elimination (RFE) is a feature selection method that fits a model and removes the weakest feature (or features) until the specified number of features is reached." In this case, we are choose six feature. "Features are ranked by the model’s coef_ or feature_importances_ attributes, and by recursively eliminating a small number of features per loop, RFE attempts to eliminate dependencies and collinearity that may exist in the model (Yellowbrick)." 
