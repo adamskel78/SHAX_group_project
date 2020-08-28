@@ -17,21 +17,21 @@ Examination: results of medical examination;
 Subjective: information given by the patient.
 
 Features:
-| Features                  |  Unit                 | Type of Feature        | Type           |
-| :-------------------------| :-------------------: | :--------------------: |--------------: |
-| ID                        |                       | Identification feature | Integer        |
-| Age                       |    days               | Objective feature      | Integer        |
-| Height                    |    cm                 | Objective feature      | Integer        |
-| Weight                    |    kg                 | Objective feature      | Float          |
-| Gender                    | 1 - women, 2 - men    | Objective feature      |  Categorical   |
-| Systolic blood pressure   |    ap_hi              | Examination Feature    |  Integer       |
-| Diastolic blood pressure  |    ap_lo              | Examination Feature    |  Integer       |
-| Cholesterol               | 1 - normal, 2 - above normal, 3 - well above normal | Examination Feature    | Categorical |
-| Glucose                   | 1 - normal, 2 - above normal, 3 - well above normal | Examination Feature    | Categorical |
-| Smoking                   | 0 - does not smoke, 1 - smoke | Subjective Feature     | Binary |
-| Alcohol intake            | 0 - drinks alcohol, 1 - drinks | Subjective Feature     | Binary |
-| Physical activity         | 0 - does not exercise 1 - exercises| Subjective Feature     | Binary |
-| Presence or absence of cardiovascular disease   | 0 - healthy, 1 - sick | Target Variable | Binary \|
+| Features                |   Type of Feature        |   Type    | Unit  |
+| :-----------------------| :----------------------: | :-------: |-----: |
+| ID                        | Identification feature | Integer   |       |
+| Age                       | Objective feature      | Integer   |  days |
+| Height                    | Objective feature      | Integer   |  cm   |
+| Weight                    | Objective feature      | Float     |  kg   |
+| Gender                    | Objective feature      | Categorical|1 - women; 2 - men |
+| Systolic blood pressure   | Examination Feature    | Integer   | ap_hi |
+| Diastolic blood pressure  | Examination Feature    | Integer   | ap_lo |
+| Cholesterol               | Examination Feature    | Categorical | 1 - normal, 2 - above normal, 3 - well above normal |
+| Glucose                   | ExaminationFeature     | Categorical | 1 - normal, 2 - above normal, 3 - well above normal |
+| Smoking                   | Subjective Feature     | Binary | 0 - does not smoke, 1 - smoke |
+| Alcohol intake            | Subjective Feature     | Binary | 0 - drinks alcohol, 1 - drinks| 
+| Physical activity         | Subjective Feature     | Binary | 0 - does not exercise 1 - exercises|
+| Presence or absence of cardiovascular disease | Target Variable | Binary | 0 - healthy, 1 - sick \|
 
 There are 70,000 records of patients data."
 
