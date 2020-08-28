@@ -54,7 +54,7 @@ There are 11 features (age, height, weight, gender, systolic blood pressure, dia
 Some of which aren't correlated to the target variable, presence or absence of cardiovascular disease, thus we used two methods to determine which feature to include in our machine learning model: correlation matrix and recursive feature elimination.
 
 ## Correlation Matrix
-[Correlation Heat Map](https://github.com/adamskel78/SHAX_group_project/blob/shannon/Data%20Visuals/Corr_Matrix_Heat_Map.png)
+![Correlation Heat Map](https://github.com/adamskel78/SHAX_group_project/blob/shannon/Data%20Visuals/Corr_Matrix_Heat_Map.png)
 The last column on both axes is our target variable, cardio. Looking at those columns, we see that age (r = 0.24), weight (r = 0.18), ap_hi (0.054), ap_lo (0.066), cholesterol (r = 0.22) are weakly correlated with carido. Thus, we will choose these features in our machine learning models.
 
 ## Recursive Feature Elimination
