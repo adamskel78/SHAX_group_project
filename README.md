@@ -53,7 +53,7 @@ There weren't any null values, so we didn't remove any values.
 
 We split our training and testing sets into 25 and 75, but when you look at the histograms, there is scaling needed, so we scaled our X_train and X_test.
 
-![Hist_Features] (https://github.com/adamskel78/SHAX_group_project/blob/shannon/Data%20Visuals/His_feature.png)
+![Hist_Features](https://github.com/adamskel78/SHAX_group_project/blob/shannon/Data%20Visuals/His_feature.png)
 
 # Feature Engineering / Feature Selection
 There are 11 features (age, height, weight, gender, systolic blood pressure, diastolic blood pressure, cholesterol, glucose, smoking, alcohol intake, physical activity). 
@@ -74,9 +74,9 @@ In RFE, we used it on RandonForestClassifier(), you can see from our Cardiovascu
 
 # Machine Learning Models
 We performed the following machine learning models:
-| Machine Learning Model  | Accuracy | What it does   | Shortcoming |
+| Machine Learning Model  | Accuracy | What it is     | Shortcoming |
 | :-----------------------| ---------| ---------------| ----------: |
-|  Random Forest          |   73%    |  Supervised learning algorithm that builds multiple decision trees and merges them together to get a more accurate and stable predict              |             |
+|  Random Forest          |   73%    |Supervised learning algorithm that builds multiple decision trees and merges them together to get a more accurate and stable predict. |             |
 |  Logistic Regression    |   69.8%  |                |             |  
 |  Gradient Boosting Classifer |     |                |             |     |  K-Nearest Neighbor     |    71%   |                |            \|   
 
