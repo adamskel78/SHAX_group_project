@@ -48,10 +48,10 @@ Features:
 
 There are 70,000 records of patients data."
 
-# Data Pre-processing
+# Data Pre-Processing
 There weren't any null values, so we didn't remove any values. 
 
-We split our training and testing sets into 25 and 75, but when you look at the histograms, there is scaling needed, so we scaled our X_train and X_test.
+We split our training and testing sets into 25 and 75 respectively. Also, when you look at the histograms, there is scaling needed, so we scaled our X_train and X_test.
 
 ![Hist_Features](https://github.com/adamskel78/SHAX_group_project/blob/shannon/Data%20Visuals/His_feature.png)
 
@@ -74,11 +74,12 @@ In RFE, we used it on RandonForestClassifier(), you can see from our Cardiovascu
 
 # Machine Learning Models
 We performed the following machine learning models:
-| Machine Learning Model  | Accuracy | What it is     | Shortcoming |
-| :-----------------------| ---------| ---------------| ----------: |
-|  Random Forest          |   73%    |Supervised learning algorithm that builds multiple decision trees and merges them together to get a more accurate and stable predict. |             |
-|  Logistic Regression    |   69.8%  |                |             |  
-|  Gradient Boosting Classifer |     |                |             |     |  K-Nearest Neighbor     |    71%   |                |            \|   
+| Machine Learning Model| Accuracy | What it is     | Benefit |Shortcoming |
+| :---------------------| ---------| ---------------|----------| ----------: |
+| Random Forest         |   73%    |Bagging algorithm that builds multiple decision trees and merges them together to get a more accurate and stable predict using bagging (builds many independent predictors and combines them using averaging techinque).| - Overcome overfitting by averaging. - Less variance, high accuracy even with missing data, scaling unnessecary | - More computational resources, thus more time consuming. - Less intutive with large datasets - Features need to have some predictive power else model won't work|
+| Logistic Regression   |   69.8%  |Classification algorithm that classifies binary outcomes by using a sigmoid function to map the predicted values to probabilities.| - Simple to implement - Effective - Feature scaling unnessecary|- Poor performance with irrelevant and high correlate features - High reliance on proper presentation of data  
+| Gradient Boosting Classifer|Learning rate: 0.05, 73%|Boosting algorithm in which the predictors are made sequentially.             | Can overfit             |     
+| K-Nearest Neighbor    |    71%   |Classification algorithm that assumes that similar points lie close in proximity and groups them according to distance from one another.|- Simpe to understand and implement - Constantly evolving when new data is inputed.| - More computational resources, thus more time consuming. - Scaling is required - Sensitive to outliers and missing values - Does not work well with imbalance data \|   
 
 # Group Members
 - Xiao Meng
