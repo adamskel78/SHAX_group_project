@@ -49,6 +49,8 @@ CREATE TABLE cardio_table (
   PRIMARY KEY (id)
 );
 
+UPDATE cardio_table SET age = age / 365 ;
+
 CREATE TABLE cardio_prob (
     id INTEGER,
     prob DECIMAL
