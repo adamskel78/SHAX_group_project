@@ -32,15 +32,15 @@ Features:
 | Age                       | Objective feature      | Integer   |  days |
 | Height                    | Objective feature      | Integer   |  cm   |
 | Weight                    | Objective feature      | Float     |  kg   |
-| Gender                    | Objective feature      | Categorical|1 - women; 2 - men |
+| Gender                    | Objective feature      | Categorical|<ul><li>1 - women</li><li>2 - men<li></ul> |
 | Systolic blood pressure   | Examination Feature    | Integer   | ap_hi |
 | Diastolic blood pressure  | Examination Feature    | Integer   | ap_lo |
-| Cholesterol               | Examination Feature    | Categorical | 1 - normal, 2 - above normal, 3 - well above normal |
-| Glucose                   | Examination Feature     | Categorical | 1 - normal, 2 - above normal, 3 - well above normal |
-| Smoking                   | Subjective Feature     | Binary | 0 - does not smoke, 1 - smoke |
-| Alcohol intake            | Subjective Feature     | Binary | 0 - drinks alcohol, 1 - drinks| 
-| Physical activity         | Subjective Feature     | Binary | 0 - does not exercise 1 - exercises|
-| Presence or absence of cardiovascular disease | Target Variable | Binary | 0 - healthy, 1 - sick \|
+| Cholesterol               | Examination Feature    | Categorical |<ul><li>1 - normal</li><li>2 - above normal</li><li>3 - well above normal</li></ul> |
+| Glucose                   | Examination Feature     | Categorical |<ul><li>1 - normal</li><li>2 - above normal</li><li>3 - well above normal</ul></li> |
+| Smoking                   | Subjective Feature     | Binary |<ul><li>0 - does not smoke</li><li>1 - smoke</li></ul>|
+| Alcohol intake            | Subjective Feature     | Binary |<ul><li> 0 - drinks alcohol</li><li>1 - drinks</li></ul>| 
+| Physical activity         | Subjective Feature     | Binary |<ul><li>0 - does not exercise</li><li>1 - exercises</li></ul>|
+| Presence or absence of cardiovascular disease | Target Variable | Binary |<ul><li>0 - healthy</li><li>1 - sick</li></ul>\
 
 # Data Pre-Processing
 There weren't any null values, so we didn't remove any values. 
@@ -73,7 +73,7 @@ We performed the following machine learning models:
 | Random Forest         |   73%    |Bagging algorithm that builds multiple decision trees and merges them together to get a more accurate and stable predict using bagging (builds many independent predictors and combines them using averaging techinque).| <ul><li>Overcome overfitting by averaging.</li><li>Less variance, high accuracy even with missing data, scaling unnessecary</li></ul>|<ul><li>More computational resources, thus more time consuming.</li><li>Less intutive with large datasets</li><li>Features need to have some predictive power else model won't work</li></ul>|
 | Logistic Regression   |   69.8%  |Classification algorithm that classifies binary outcomes by using a sigmoid function to map the predicted values to probabilities.|<ul><li>Simple to implement</li><li>Effective<li>Feature scaling unnessecary</li></ul>|<ul><li>Poor performance with irrelevant and high correlate features</li><li>High reliance on proper presentation of data</li></ul>|
 | Gradient Boosting Classifer|Learning rate: 5%, 73%|Boosting algorithm in which the predictors are made sequentially.|<ul><li>             |<ul><li>    
-| K-Nearest Neighbor    |    71%   |Classification algorithm that assumes that similar points lie close in proximity and groups them according to distance from one another.|<ul><li>Simpe to understand and implement</li><li>Constantly evolving when new data is inputed</li></ul>|<ul><li>More computational resources, thus more time consuming.</li><li>Scaling is required</li><li>Sensitive to outliers and missing values</li><li>Does not work well with imbalance data</li></ul> \|   
+| K-Nearest Neighbor    |    71%   |Classification algorithm that assumes that similar points lie close in proximity and groups them according to distance from one another.|<ul><li>Simpe to understand and implement</li><li>Constantly evolving when new data is inputed</li></ul>|<ul><li>More computational resources, thus more time consuming.</li><li>Scaling is required</li><li>Sensitive to outliers and missing values</li><li>Does not work well with imbalance data</li></ul> \
 
 # References
 - [Pros and cons of various Machine Learning algorithms bt Shailaja Gupta](https://towardsdatascience.com/pros-and-cons-of-various-classification-ml-algorithms-3b5bfb3c87d6_)
