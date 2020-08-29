@@ -23,11 +23,7 @@ We want to present this through a web application where users interact with the 
 # Data
 [Kaggle's Cardiovascular Disease Dataset](https://www.kaggle.com/sulianova/cardiovascular-disease-dataset/notebooks)
 
-"There are 3 types of input features:
-
-- Objective: factual information;
-- Examination: results of medical examination;
-- Subjective: information given by the patient.
+There are 70,000 patients with 11 features (ID excluded), and one target variable.
 
 Features:
 | Features                |   Type of Feature        |   Type    | Unit  |
@@ -45,8 +41,6 @@ Features:
 | Alcohol intake            | Subjective Feature     | Binary | 0 - drinks alcohol, 1 - drinks| 
 | Physical activity         | Subjective Feature     | Binary | 0 - does not exercise 1 - exercises|
 | Presence or absence of cardiovascular disease | Target Variable | Binary | 0 - healthy, 1 - sick \|
-
-There are 70,000 records of patients data."
 
 # Data Pre-Processing
 There weren't any null values, so we didn't remove any values. 
@@ -74,12 +68,16 @@ In RFE, we used it on RandonForestClassifier(), you can see from our Cardiovascu
 
 # Machine Learning Models
 We performed the following machine learning models:
-| Machine Learning Model| Accuracy | What it is     | Benefit |Shortcoming |
-| :---------------------| ---------| ---------------|----------| ----------: |
-| Random Forest         |   73%    |Bagging algorithm that builds multiple decision trees and merges them together to get a more accurate and stable predict using bagging (builds many independent predictors and combines them using averaging techinque).| - Overcome overfitting by averaging. - Less variance, high accuracy even with missing data, scaling unnessecary | - More computational resources, thus more time consuming. - Less intutive with large datasets - Features need to have some predictive power else model won't work|
-| Logistic Regression   |   69.8%  |Classification algorithm that classifies binary outcomes by using a sigmoid function to map the predicted values to probabilities.| - Simple to implement - Effective - Feature scaling unnessecary|- Poor performance with irrelevant and high correlate features - High reliance on proper presentation of data  
-| Gradient Boosting Classifer|Learning rate: 0.05, 73%|Boosting algorithm in which the predictors are made sequentially.             | Can overfit             |     
-| K-Nearest Neighbor    |    71%   |Classification algorithm that assumes that similar points lie close in proximity and groups them according to distance from one another.|- Simpe to understand and implement - Constantly evolving when new data is inputed.| - More computational resources, thus more time consuming. - Scaling is required - Sensitive to outliers and missing values - Does not work well with imbalance data \|   
+| Machine Learning Model| Accuracy  | What it is     | Benefits |Shortcomings |
+| :---------------------| ----------| ---------------|----------| ----------: |
+| Random Forest         |   73%    |Bagging algorithm that builds multiple decision trees and merges them together to get a more accurate and stable predict using bagging (builds many independent predictors and combines them using averaging techinque).| <ul><li>Overcome overfitting by averaging.</li><li>Less variance, high accuracy even with missing data, scaling unnessecary</li></ul>|<ul><li>More computational resources, thus more time consuming.</li><li>Less intutive with large datasets</li><li>Features need to have some predictive power else model won't work</li></ul>|
+| Logistic Regression   |   69.8%  |Classification algorithm that classifies binary outcomes by using a sigmoid function to map the predicted values to probabilities.|<ul><li>Simple to implement</li><li>Effective<li>Feature scaling unnessecary</li></ul>|<ul><li>Poor performance with irrelevant and high correlate features</li><li>High reliance on proper presentation of data</li></ul>|
+| Gradient Boosting Classifer|Learning rate: 5%, 73%|Boosting algorithm in which the predictors are made sequentially.|<ul><li>             |<ul><li>    
+| K-Nearest Neighbor    |    71%   |Classification algorithm that assumes that similar points lie close in proximity and groups them according to distance from one another.|<ul><li>Simpe to understand and implement</li><li>Constantly evolving when new data is inputed</li></ul>|<ul><li>More computational resources, thus more time consuming.</li><li>Scaling is required</li><li>Sensitive to outliers and missing values</li><li>Does not work well with imbalance data</li></ul> \|   
+
+# References
+- [Pros and cons of various Machine Learning algorithms bt Shailaja Gupta](https://towardsdatascience.com/pros-and-cons-of-various-classification-ml-algorithms-3b5bfb3c87d6_)
+- [Wikipedia on Cardiovascular Disease] (https://en.wikipedia.org/wiki/Cardiovascular_disease)
 
 # Group Members
 - Xiao Meng
