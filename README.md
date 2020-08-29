@@ -1,9 +1,9 @@
 # Cardiovascular Disease Checker Project
-"Cardiovascular disease (CVD) is a class of disease that involves the heart or blood vessels (Wikipedia)." "It is the leading cause of death in all areas of the world expect Africa. Together CVD resulted in 17.9 million deaths in 2015, up from 12.3 million in 1990", but yet it is estimated that up to 90% of CVD may be preventable (Wikipedia)."
+Cardiovascular disease (CVD) is a class of disease that involves the heart or blood vessels. "It is the leading cause of death in all areas of the world expect Africa. "An estimated 17.9 million people died from CVD in 2016, representing 31% of all global deaths[1], but yet it is estimated that up to 90% of some CVD may be preventable[2]."
 
 Knowing this our group became interested in predicting whether a person is at risk of cardiovascular disease based of individual demographic and health status data (age, height, weight, systolic blood pressure, diastolic blood pressure, cholesterol levels, glucose levels, etc). 
 
-We want to present this through a web application where users interact with the app by inputing their personal data, and the app responds with the probability of having cardiovascular disease. If time permits, we want to reccommend users course of action such as healthy eating, exercise, limiting alcohol intake based off of the prediction of probability of getting cardiovascular disease.
+We want to present this through a web application where users interact with the app by inputting their personal data, and the app responds with the probability of having cardiovascular disease. If time permits, we want to recommend users course of action such as healthy eating, exercise, limiting alcohol intake based off of the prediction of probability of getting cardiovascular disease.
 
 **Disclaimer**: This is not an official recommendation of what patients should do. Please call a medical professional if you are at risk of cardiovascular disease.
 
@@ -17,7 +17,7 @@ We want to present this through a web application where users interact with the 
 - Attending office hours to get help from TAs.
 
 # Question 
-- Which machine learning model provides the most accurate prediction for whether a patient has cardiovasular disease?
+- Can random forest model predict presence of cardiovascular disease with moderate accuracy?
 - What health factors are correlated with having cardiovascular disease?
 
 # Data
@@ -27,7 +27,7 @@ There are 70,000 patients with 11 features (ID excluded), and one target variabl
 
 Features:
 | Features                |   Type of Feature        |   Type    | Unit  |
-| :-----------------------| :----------------------: | :-------: |:----- |
+| :----------------| :----------------------: | :-------: |:----- |
 | ID                        | Identification feature | Integer   |       |
 | Age                       | Objective feature      | Integer   |  days |
 | Height                    | Objective feature      | Integer   |  cm   |
@@ -37,8 +37,8 @@ Features:
 | Diastolic blood pressure  | Examination Feature    | Integer   | ap_lo |
 | Cholesterol               | Examination Feature    | Categorical |<ul><li>1 - normal</li><li>2 - above normal</li><li>3 - well above normal</li></ul> |
 | Glucose                   | Examination Feature     | Categorical |<ul><li>1 - normal</li><li>2 - above normal</li><li>3 - well above normal</ul></li> |
-| Smoking                   | Subjective Feature     | Binary |<ul><li>0 - does not smoke</li><li>1 - smoke</li></ul>|
-| Alcohol intake            | Subjective Feature     | Binary |<ul><li> 0 - drinks alcohol</li><li>1 - drinks</li></ul>| 
+| Smoking                   | Subjective Feature     | Binary |<ul><li>0 - does not smoke</li><li>1 - smokes</li></ul>|
+| Alcohol intake            | Subjective Feature     | Binary |<ul><li> 0 - does not drink alcohol</li><li>1 - drinks</li></ul>| 
 | Physical activity         | Subjective Feature     | Binary |<ul><li>0 - does not exercise</li><li>1 - exercises</li></ul>|
 | Presence or absence of cardiovascular disease | Target Variable | Binary |<ul><li>0 - healthy</li><li>1 - sick</li></ul>
 
@@ -70,14 +70,16 @@ In RFE, we used it on RandonForestClassifier(), you can see from our Cardiovascu
 We performed the following machine learning models:
 | Machine Learning Model| Accuracy  | What it is     | Benefits |Shortcomings |
 | :---------------------| ----------| ---------------|----------| :---------- |
-| Random Forest         |   73%    |Bagging algorithm that builds multiple decision trees and merges them together to get a more accurate and stable predict using bagging (builds many independent predictors and combines them using averaging techinque).| <ul><li>Overcome overfitting by averaging.</li><li>Less variance, high accuracy even with missing data, scaling unnessecary</li></ul>|<ul><li>More computational resources, thus more time consuming.</li><li>Less intutive with large datasets</li><li>Features need to have some predictive power else model won't work</li></ul>|
+| Random Forest         |   73%    |Bagging algorithm that builds multiple decision trees and merges them together to get a more accurate and stable predict using bagging (builds many independent predictors and combines them using averaging techinque).| <ul><li>Overcome overfitting by averaging.</li><li>Less variance, high accuracy even with missing data, scaling unnessecary</li></ul>|<ul><li>Computationally expensive<li><li>Less intutive with large datasets</li><li>Features need to have some predictive power else model won't work</li></ul>|
 | Logistic Regression   |   69.8%  |Classification algorithm that classifies binary outcomes by using a sigmoid function to map the predicted values to probabilities.|<ul><li>Simple to implement</li><li>Effective<li>Feature scaling unnessecary</li></ul>|<ul><li>Poor performance with irrelevant and high correlate features</li><li>High reliance on proper presentation of data</li></ul>|
-| Gradient Boosting Classifer|Learning rate: 5%, 73%|Boosting algorithm in which the predictors are made sequentially.|<ul><li>             |<ul><li>    
-| K-Nearest Neighbor    |    71%   |Classification algorithm that assumes that similar points lie close in proximity and groups them according to distance from one another.|<ul><li>Simpe to understand and implement</li><li>Constantly evolving when new data is inputed</li></ul>|<ul><li>More computational resources, thus more time consuming.</li><li>Scaling is required</li><li>Sensitive to outliers and missing values</li><li>Does not work well with imbalance data</li></ul>
+| Gradient Boosting Classifer|Learning rate: 5%, 73%|Boosting algorithm in which the predictors are made sequentially.|<ul><li>Good accuracy score/<li>Data pre-processing not needed</li><li>Handles missing data</li></ul>|<ul><li>Overfitting</li><li>Computationally expensive</li><li>Less interpretable</li></ul>]   
+| K-Nearest Neighbor    |    71%   |Classification algorithm that assumes that similar points lie close in proximity and groups them according to distance from one another.|<ul><li>Simpe to understand and implement</li><li>Constantly evolving when new data is inputed</li></ul>|<ul><li>Computationally expensive</li><li>Scaling is required</li><li>Sensitive to outliers and missing values</li><li>Does not work well with imbalance data</li></ul>
+[3]
 
 # References
-- [Pros and cons of various Machine Learning algorithms bt Shailaja Gupta](https://towardsdatascience.com/pros-and-cons-of-various-classification-ml-algorithms-3b5bfb3c87d6_)
-- [Wikipedia on Cardiovascular Disease] (https://en.wikipedia.org/wiki/Cardiovascular_disease)
+- [1] Center for Disease Control and Prevention. 2020. Heart Disease Facts | Cdc.Gov. [online] Available at: <https://www.cdc.gov/heartdisease/facts.htm> [Accessed 29 Aug 2020].
+- [2] McGillJr, Henry C., et al. “Preventing Heart Disease in the 21st Century.” Circulation, 4 Mar. 2008, www.ahajournals.org/doi/10.1161/CIRCULATIONAHA.107.717033.
+- [3][Pros and cons of various Machine Learning algorithms bt Shailaja Gupta](https://towardsdatascience.com/pros-and-cons-of-various-classification-ml-algorithms-3b5bfb3c87d6_)
 
 # Group Members
 - Xiao Meng
