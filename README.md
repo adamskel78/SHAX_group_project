@@ -85,11 +85,11 @@ In RFE, we used it on RandonForestClassifier(), you can see from our Cardiovascu
 We performed the following machine learning models[3]:
 | Machine Learning Model| Accuracy  |Model Evaluation| Benefits |Shortcomings |
 | :---------------------| ----------| ---------------|----------| :---------- |
-| Logistic Regression   |   71.9%  |
-| Decision Tree         |   Training:73.3%; Testing: 72.9% |
-| Random Forest         |   Training:73.1%; Testing: 73.2% |
-| KNN                   |   Training:69.8%; Testing: 68.4%  |
-| Gradient Boosting Classifer|Training:73.6%; Testing: 73.4%; Learning Rate: 0.1|
+| Logistic Regression   |   71.9%   | Accuracy is the fourth highest among five models.|
+| Decision Tree         |   Training:73.3%; Testing: 72.9% | Testing Accuracy is the third highest among five models.|
+| Random Forest         |   Training:73.1%; Testing: 73.2% | Testing Accuracy is the second highest amont five models.
+| KNN                   |   Training:69.8%; Testing: 68.4%  | Testing Accuracy is the lowest among five models.|
+| Gradient Boosting Classifer|Training:73.6%; Testing: 73.4%; Learning Rate: 0.1| Testing Accuracy is the higest among five models.|
 <!-- Bagging algorithm that builds multiple decision trees and merges them together to get a more accurate and stable predict using bagging (builds many independent predictors and combines them using averaging techinque).| <ul><li>Overcome overfitting by averaging.</li><li>Less variance, high accuracy even with missing data, scaling unnessecary</li></ul>|<ul><li>Computationally expensive<li><li>Less intutive with large datasets</li><li>Features need to have some predictive power else model won't work</li></ul>| -->
 
 <!-- | Logistic Regression   |   69.8%  | -->
