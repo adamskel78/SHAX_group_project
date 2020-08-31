@@ -86,7 +86,7 @@ We performed the following machine learning models[3]:
 | Machine Learning Model| Accuracy  | What it is     | Benefits |Shortcomings |
 | :---------------------| ----------| ---------------|----------| :---------- |
 | Random Forest         |   73%    |
-
+| Logistic Regression   |   69.8%  |
 <!-- Bagging algorithm that builds multiple decision trees and merges them together to get a more accurate and stable predict using bagging (builds many independent predictors and combines them using averaging techinque).| <ul><li>Overcome overfitting by averaging.</li><li>Less variance, high accuracy even with missing data, scaling unnessecary</li></ul>|<ul><li>Computationally expensive<li><li>Less intutive with large datasets</li><li>Features need to have some predictive power else model won't work</li></ul>| -->
 
 | Logistic Regression   |   69.8%  |
