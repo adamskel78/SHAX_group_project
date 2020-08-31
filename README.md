@@ -28,7 +28,7 @@ We want to present this through a web application where users interact with the 
 - Create web app to display an interactive predictor of cardiovascular disease
 
 # Question 
-- Can random forest model predict presence of cardiovascular disease with moderate accuracy?
+- What machine learning model has the highest accuracy of predicting presence of cardiovascular disease, and can it predict presence of cardiovascular disease with moderate accuracy?
 - What health factors are correlated with having cardiovascular disease?
 
 # Data
