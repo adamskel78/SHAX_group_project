@@ -83,7 +83,7 @@ In RFE, we used it on RandonForestClassifier(), you can see from our Cardiovascu
 
 # Machine Learning Models
 We performed the following machine learning models[3]:
-| Machine Learning Model| Accuracy  | What it is     | Benefits |Shortcomings |
+| Machine Learning Model| Accuracy  |Model Evaluation| What it is     | Benefits |Shortcomings |
 | :---------------------| ----------| ---------------|----------| :---------- |
 | Logistic Regression   |   71.9%  |
 | Decision Tree         |   Training:73.3%; Testing: 72.9% |
