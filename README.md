@@ -87,7 +87,7 @@ We performed the following machine learning models[3]:
 | :---------------------| ----------| ---------------|----------| :---------- |
 | Logistic Regression   |   71.9%   | Accuracy is the fourth highest among five models.|Easy to implement. Tuning of hyperparameters not needed.| High reliance on proper presentation of data.|
 | Decision Tree         |   Training:73.3%; Testing: 72.9% | Testing Accuracy is the third highest among five models.| Easy to interpret.| Prone to overfitting.|
-| Random Forest         |   Training:73.1%; Testing: 73.2% | Testing Accuracy is the second highest amont five models.| Reduce the risk of overfitting and hgher accuracy than Decision Tree model.|
+| Random Forest         |   Training:73.1%; Testing: 73.2% | Testing Accuracy is the second highest amont five models.| Reduce the risk of overfitting and hgher accuracy than Decision Tree model.|Computation relatively expensive.|
 | KNN                   |   Training:69.8%; Testing: 68.4%  | Testing Accuracy is the lowest among five models.|
 | Gradient Boosting Classifer|Training:73.6%; Testing: 73.4%; Learning Rate: 0.1| Testing Accuracy is the higest among five models.| Good model performence. Less prone to overfitting.|Difficult interpretation , visualization. Hard to tune as there are too many hyperparameters.
 
