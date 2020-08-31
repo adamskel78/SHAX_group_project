@@ -87,13 +87,14 @@ We performed the following machine learning models[3]:
 | :---------------------| ----------| ---------------|----------| :---------- |
 | Random Forest         |   73%    |
 | Logistic Regression   |   69.8%  |
+| Gradient Boosting Classifer|Learning rate: 5%, 73%|
 <!-- Bagging algorithm that builds multiple decision trees and merges them together to get a more accurate and stable predict using bagging (builds many independent predictors and combines them using averaging techinque).| <ul><li>Overcome overfitting by averaging.</li><li>Less variance, high accuracy even with missing data, scaling unnessecary</li></ul>|<ul><li>Computationally expensive<li><li>Less intutive with large datasets</li><li>Features need to have some predictive power else model won't work</li></ul>| -->
 
-| Logistic Regression   |   69.8%  |
+<!-- | Logistic Regression   |   69.8%  | -->
 
 <!-- Classification algorithm that classifies binary outcomes by using a sigmoid function to map the predicted values to probabilities.|<ul><li>Simple to implement</li><li>Effective<li>Feature scaling unnessecary</li></ul>|<ul><li>Poor performance with irrelevant and high correlate features</li><li>High reliance on proper presentation of data</li></ul>| -->
 
-| Gradient Boosting Classifer|Learning rate: 5%, 73%|
+<!-- | Gradient Boosting Classifer|Learning rate: 5%, 73%| -->
 
 <!-- Boosting algorithm in which the predictors are made sequentially.|<ul><li>Good accuracy score/<li>Data pre-processing not needed</li><li>Handles missing data</li></ul>|<ul><li>Overfitting</li><li>Computationally expensive</li><li>Less interpretable</li></ul>|  
 | K-Nearest Neighbor    |    71%   |Classification algorithm that assumes that similar points lie close in proximity and groups them according to distance from one another.|<ul><li>Simpe to understand and implement</li><li>Constantly evolving when new data is inputed</li></ul>|<ul><li>Computationally expensive</li><li>Scaling is required</li><li>Sensitive to outliers and missing values</li><li>Does not work well with imbalance data</li></ul> -->
