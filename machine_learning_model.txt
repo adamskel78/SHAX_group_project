@@ -7,21 +7,21 @@
 There are 70,000 patients with 11 features (ID excluded), and one target variable.
 
 Features:
-| Features                |   Type of Feature        |   Type    | Unit  |
-| :----------------| :----------------------: | :-------: |:----- |
+| Features                  | Type of Feature        |   Type    | Unit  |
+| :----------------         | :--------------------: | :-------: |:----- |
 | ID                        | Identification feature | Integer   |       |
 | Age                       | Objective feature      | Integer   |  days |
 | Height                    | Objective feature      | Integer   |  cm   |
 | Weight                    | Objective feature      | Float     |  kg   |
-| Gender                    | Objective feature      | Categorical|<ul><li>1 - Female</li><li>2 - Male</ul></li> |
+| Gender                    | Objective feature      | Categorical|1 - Female, 2 - Male|
 | Systolic Blood Pressure   | Examination Feature    | Integer   | ap_hi |
 | Diastolic Blood Pressure  | Examination Feature    | Integer   | ap_lo |
-| Cholesterol               | Examination Feature    | Categorical |<ul><li>1 - Normal</li><li>2 - Above normal</li><li>3 - Well Above Normal</li></ul> |
-| Glucose                   | Examination Feature     | Categorical |<ul><li>1 - Normal</li><li>2 - Above Normal</li><li>3 - Well Above Normal</ul></li> |
-| Smoking                   | Subjective Feature     | Binary |<ul><li>0 - Does Not smoke</li><li>1 - Smokes</li></ul>|
-| Alcohol intake            | Subjective Feature     | Binary |<ul><li> 0 - Does Not Drink Alcohol</li><li>1 - Drinks</li></ul>| 
-| Physical activity         | Subjective Feature     | Binary |<ul><li>0 - Does Not Exercise</li><li>1 - Exercises</li></ul>|
-| Presence or Absence of Cardiovascular Disease | Target Variable | Binary |<ul><li>0 - Absence of Cardiovascular Disease</li><li>1 - Presence of Cardiovascular Disease</li></ul>
+| Cholesterol               | Examination Feature    | Categorical |1 - Normal, 2 - Above normal, 3 - Well Above Normal|
+| Glucose                   | Examination Feature    | Categorical |1 - Normal, 2 - Above Normal, 3 - Well Above Normal|
+| Smoking                   | Subjective Feature     | Binary |0 - Does Not smoke, 1 - Smokes|
+| Alcohol intake            | Subjective Feature     | Binary |0 - Does Not Drink Alcohol, 1 - Drinks| 
+| Physical activity         | Subjective Feature     | Binary |0 - Does Not Exercise, 1 - Exercises|
+| Presence or Absence of Cardiovascular Disease | Target Variable | Binary |0 - Absence of Cardiovascular Disease, 1 - Presence of Cardiovascular Disease|
 
 
 ## Data Description and Data Cleaning
@@ -110,12 +110,12 @@ Randon Forest and Gradient Boosting Tree both got 0.733 testing accuracy.
 
 The following table shows model performence and comparisons of limitations and benefits.
 
-| Machine Learning Model| Accuracy  |Model Evaluation| Benefits |limitations |
-| :---------------------| ----------| ---------------|----------| :---------- |
-| Logistic Regression   |   71.9%   | Accuracy is the fourth highest among five models.|Easy to implement. Tuning of hyperparameters not needed.| High reliance on proper presentation of data.|
-| Decision Tree         |   Training:73.3%; Testing: 72.9% | Testing Accuracy is the third highest among five models.| Easy to interpret.| Prone to overfitting.|
-| Random Forest         |   Training:73.1%; Testing: 73.2% | Testing Accuracy is the second highest.| Reduce the risk of overfitting and hgher accuracy than Decision Tree model.|Computation relatively expensive.|
-| KNN                   |   Training:69.8%; Testing: 68.4%  | Testing Accuracy is the lowest.| Easy to implement. No assumption about data. |Curse of dimensionality|
-| Gradient Boosting Classifer|Training:73.6%; Testing: 73.4%; Learning Rate: 0.05| Testing Accuracy is the higest.| Good model performence. Less prone to overfitting.|Difficult interpretation , visualization. Hard to tune as there are too many hyperparameters.
-| SVM                   |   Training:                       |Testing Accuracy is 
+| Machine Learning Model   | Accuracy                        | Benefits                                                                   |limitations                                        |
+| :------------------------| --------------------------------| ---------------------------------------------------------------------------| :-------------------------------------------------|
+| Logistic Regression      | 71.9%                           | Easy to implement. Tuning of hyperparameters not needed.                   | High reliance on proper presentation of data      |
+| Decision Tree            | Training:73.3%; Testing: 72.9%  | Easy to interpret.                                                         | Prone to overfitting                              |
+| Random Forest            | Training:73.1%; Testing: 73.2%  | Reduce the risk of overfitting and hgher accuracy than Decision Tree model.| Computation relatively expensive                  |
+| KNN                      | Training:69.8%; Testing: 68.4%  | Easy to implement. No assumption about data.                               | Curse of dimensionality                           |
+| Gradient Boosting Tree   | Training:73.6%; Testing: 73.4%  | Good model performence. Less prone to overfitting.                         | Hard to tune as there are too many hyperparameters|
+| SVM                      | Training:       Testing:        |
 
