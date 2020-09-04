@@ -21,7 +21,7 @@ Features:
 | Smoking                   | Subjective Feature     | Binary |0 - Does Not smoke, 1 - Smokes| 0.09 | 0.28 |
 | Alcohol intake            | Subjective Feature     | Binary |0 - Does Not Drink Alcohol, 1 - Drinks| 0.05 | 0.23 |
 | Physical activity         | Subjective Feature     | Binary |0 - Does Not Exercise, 1 - Exercises| 0.8 | 0.4|
-| Presence or Absence of Cardiovascular Disease | Target Variable | Binary |0 - Absence of Cardiovascular Disease, 1 - Presence of Cardiovascular Disease|
+| Presence or Absence of Cardiovascular Disease | Target Variable | Binary |0 - Absence of Cardiovascular Disease, 1 - Presence of Cardiovascular Disease| 0.499 | 0.50 |
 
 
 ## Data Description and Data Cleaning
