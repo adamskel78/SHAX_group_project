@@ -53,7 +53,7 @@ We visualize the relationship between variables.
 
 2.  Cholesterol and CVD
 
-![Cardio and Cholesterol](https://github.com/adamskel78/SHAX_group_project//blob/master/Data_Visuals/Choles_Cardio.png)
+![Cardio and Cholesterol](https://github.com/adamskel78/SHAX_group_project/blob/master/Data_Visuals/Choles_Cardio.png)
 
   - Findings
 
