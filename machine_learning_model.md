@@ -37,7 +37,6 @@ The following chart shows the scales of the features.
 
 ![Hist_Features](https://github.com/adamskel78/SHAX_group_project/blob/shannon/Data_Visuals/His_feature.png)
 
-
 ## Exploratory Data Analysis (EDA)
 We provide visualization and Statistics about each variable.
 We visualize the relationship between variables.
@@ -122,3 +121,6 @@ The following table shows model performence and comparisons of limitations and b
 | KNN                      | Training:69.8%; Testing: 68.4%  | Easy to implement. No assumption about data.| Curse of dimensionality  |
 | SVM                      | Training:71.6%; Testing: 71.5%  | Computation faster. | Poor performence.|
 
+![cm](https://github.com/adamskel78/SHAX_group_project/blob/shannon/Data_Visuals/confusion_matrix.png)
+![cm](https://github.com/adamskel78/SHAX_group_project/blob/shannon/Data_Visuals/learning_rate_only.png)
+![cm](https://github.com/adamskel78/SHAX_group_project/blob/shannon/Data_Visuals/max_depth_vs_learning_rate.png)
