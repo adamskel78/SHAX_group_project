@@ -42,7 +42,9 @@ We provide visualization and Statistics about each variable.
 We visualize the relationship between variables.
 
 1. Age and CVD
+
 ![Cardio Across Ages](https://github.com/adamskel78/SHAX_group_project/blob/shannon/Data_Visuals/Card_Across_Ages.png)
+
 - In the bar graph, orange bars indicate presence of CVD and blue bars indicate absence of CVD.
 - We found when age is higher, the percentage of people who have CVD is higher.
 - In this dataset, people older than 55 are more at risk of having CVD.
