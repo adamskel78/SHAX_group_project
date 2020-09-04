@@ -63,6 +63,7 @@ We split our training and testing sets into 25 and 75 respectively. Also, when y
 # Feature Engineering / Feature Selection
 There are 11 features (age, height, weight, gender, systolic blood pressure, diastolic blood pressure, cholesterol, glucose, smoking, alcohol intake, physical activity). 
 
+
 Some of which aren't correlated to the target variable, presence or absence of cardiovascular disease, thus we used two methods to determine which feature to include in our machine learning model: correlation matrix and recursive feature elimination.
 
 ## Correlation Matrix
