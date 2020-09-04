@@ -71,8 +71,7 @@ In RFE, we used it on RandonForestClassifier(). RFE suggests inmportant indicato
 We performed six machine learning models: Logistic Regression, Decision Tree, Random Forest, KNN, Gradient Boosting Tree and SVM models.
 We orignally trained neural network model and got 0.734 testing accuracy. But for depoy purpose, we do not use this model in our app.
 We conducted 10-StratifiedKFold crossvalidation and use neg_log_loss to evaluate model performence.
-
-We tuned parameters for the five models to evaluate them and reduce the risk of overfitting problem.
+We tuned parameters for the six models to evaluate them and reduce the risk of overfitting problem.
 
 ## Logistic Model
  - We trained Logistic Model using ‘lbfgs’ solver and max_iter equals 200. 
