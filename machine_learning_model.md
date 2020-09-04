@@ -35,7 +35,7 @@ We split our training and testing sets into 25 and 75 respectively.
 We also scaled X_train and X_test since the features have huge differences in their scales.
 The following chart shows the scales of the features.
 
-![Hist_Features](https://github.com/adamskel78/SHAX_group_project/tree/master/Data_Visuals/His_feature.png)
+![Hist_Features](https://github.com/adamskel78/SHAX_group_project/blob/master/Data_Visuals/His_feature.png)
 
 ## Exploratory Data Analysis (EDA)
 We provide visualization and Statistics about each variable.
@@ -43,7 +43,7 @@ We visualize the relationship between variables.
 
 1. Age and CVD
 
-![Cardio Across Ages](https://github.com/adamskel78/SHAX_group_project/tree/master/Data_Visuals/Card_Across_Ages.png)
+![Cardio Across Ages](https://github.com/adamskel78/SHAX_group_project/blob/master/Data_Visuals/Card_Across_Ages.png)
 
   - Findings
 
@@ -53,7 +53,7 @@ We visualize the relationship between variables.
 
 2.  Cholesterol and CVD
 
-![Cardio and Cholesterol](https://github.com/adamskel78/SHAX_group_project/tree/master/Data_Visuals/Choles_Cardio.png)
+![Cardio and Cholesterol](https://github.com/adamskel78/SHAX_group_project//blob/master/Data_Visuals/Choles_Cardio.png)
 
   - Findings
 
@@ -71,7 +71,7 @@ From EDA, we found some of the features do not show strong correlations to the t
 Thus, we used the information from correlation matrix and Recursive Feature Elimination to determine which features to include in our machine learning model.
 
 #### Correlation Matrix
-![Correlation Heat Map]()
+![Correlation Heat Map](https://github.com/adamskel78/SHAX_group_project/blob/master/Data_Visuals/Corr_Matrix_Heat_Map.png)
 The last column on both axes is our target variable, cardio. 
 Correlation matrix shows that age (r = 0.24), weight (r = 0.18), ap_hi (0.054), ap_lo (0.066), cholesterol (r = 0.22), and glucose (r = 0.089) are correlated with carido. 
 Thus, we considered these features for our machine learning models.
@@ -143,10 +143,10 @@ We choose Gradient Boosting Tree which got highest testing accuracy (0.734) amon
 
 - The following graphs show the performence of Gradient Boosting Tree model.
 
-![cm](https://github.com/adamskel78/SHAX_group_project/tree/master/Data_Visuals/confusion_matrix.png)
+![cm](https://github.com/adamskel78/SHAX_group_project/blob/master/Data_Visuals/confusion_matrix.png)
 
-![learning rate](https://github.com/adamskel78/SHAX_group_project/tree/master/Data_Visuals/learning_rate_only.png) 
+![learning rate](https://github.com/adamskel78/SHAX_group_project/blob/master/Data_Visuals/learning_rate_only.png) 
 
-![parameter tune](https://github.com/adamskel78/SHAX_group_project/tree/master/Data_Visuals/max_depth_vs_learning_rate.png) 
+![parameter tune](https://github.com/adamskel78/SHAX_group_project/blob/master/Data_Visuals/max_depth_vs_learning_rate.png) 
 
-![learning curve](https://github.com/adamskel78/SHAX_group_project/tree/master/Data_Visuals/learning_curve.png)
+![learning curve](https://github.com/adamskel78/SHAX_group_project/blob/master/Data_Visuals/learning_curve.png)
