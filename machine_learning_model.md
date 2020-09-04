@@ -74,8 +74,8 @@ We conducted 10-StratifiedKFold crossvalidation and use neg_log_loss to evaluate
 
 We tuned parameters for the five models to evaluate them and reduce the risk of overfitting problem.
 ## Logistic Model
- -We trained Logistic Model using ‘lbfgs’ solver and max_iter equals 200. 
- -Logistic regression model accuracy is 0.719.
+  -We trained Logistic Model using ‘lbfgs’ solver and max_iter equals 200. 
+  -Logistic regression model accuracy is 0.719.
 
 ## Decision Tree
 We tuned max_depth and max_features to evaluate Decision Tree model. 
