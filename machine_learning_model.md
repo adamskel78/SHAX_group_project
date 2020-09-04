@@ -66,6 +66,7 @@ We choose six features out of eleven based on correlation matrix.
 In RFE, we used it on RandonForestClassifier(). RFE suggests inmportant indicators of cardiovascular disease are: age, height, weight, ap_hi, ap_lo and cholesterol. This also matches the findings from correlation matrix.
 
 
+
 # Machine Learning Models
 
 We performed six machine learning models: Logistic Regression, Decision Tree, Random Forest, KNN, Gradient Boosting Tree and SVM models.
@@ -112,10 +113,10 @@ We choose Gradient Boosting Tree which got highest testing accuracy (0.734) amon
 
 The following table shows model performence and comparisons of limitations and benefits.
 
-| Machine Learning Model   | Accuracy                        | Benefits                                                                   | limitations                                                     |
-| :------------------------| --------------------------------| ---------------------------------------------------------------------------| :---------------------------------------------------------------|
-| Logistic Regression      | 71.9%                           | Easy to implement. Tuning of hyperparameters not needed.                   | Lack flexibility. Might suffer from model mis-specification.    |
-| Decision Tree            | Training:73.3%; Testing: 72.9%  | Easy to interpret.                                                         | Prone to overfitting.                                           |
+| Machine Learning Model   | Accuracy | Benefits | limitations |
+| :------------------------| ---------| ---------| :-----------|
+| Logistic Regression      | 71.9%    | Easy to implement. Tuning of hyperparameters not needed.| Lack flexibility. Might suffer from model mis-specification.|
+| Decision Tree            | Training:73.3%; Testing: 72.9%  | Easy to interpret.| Prone to overfitting. |
 | Random Forest            | Training:73.1%; Testing: 73.2%  | Reduce the risk of overfitting and hgher accuracy than Decision Tree model.| Computation relatively expensive.                               |
 | Gradient Boosting Tree   | Training:73.6%; Testing: 73.4%  | Good model performence. Less prone to overfitting.                         | Hard to tune as there are too many hyperparameters              |
 | KNN                      | Training:69.8%; Testing: 68.4%  | Easy to implement. No assumption about data.                               | Curse of dimensionality                                         |
