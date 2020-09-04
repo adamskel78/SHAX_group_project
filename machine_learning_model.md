@@ -35,7 +35,7 @@ We split our training and testing sets into 25 and 75 respectively.
 We also scaled X_train and X_test since the features have huge differences in their scales.
 The following chart shows the scales of the features.
 
-![Hist_Features](https://github.com/adamskel78/SHAX_group_project/blob/tree/master/Data_Visuals/His_feature.png)
+![Hist_Features](https://github.com/adamskel78/SHAX_group_project/blob/master/Data_Visuals/His_feature.png)
 
 ## Exploratory Data Analysis (EDA)
 We provide visualization and Statistics about each variable.
@@ -43,7 +43,7 @@ We visualize the relationship between variables.
 
 1. Age and CVD
 
-![Cardio Across Ages](https://github.com/adamskel78/SHAX_group_project/blob/tree/master/Data_Visuals/Card_Across_Ages.png)
+![Cardio Across Ages](https://github.com/adamskel78/SHAX_group_project/blob/master/Data_Visuals/Card_Across_Ages.png)
 
   - Findings
 
@@ -53,7 +53,7 @@ We visualize the relationship between variables.
 
 2.  Cholesterol and CVD
 
-![Cardio and Cholesterol](https://github.com/adamskel78/SHAX_group_project//blob/tree/master/Data_Visuals/Choles_Cardio.png)
+![Cardio and Cholesterol](https://github.com/adamskel78/SHAX_group_project//blob/master/Data_Visuals/Choles_Cardio.png)
 
   - Findings
 
@@ -143,10 +143,10 @@ We choose Gradient Boosting Tree which got highest testing accuracy (0.734) amon
 
 - The following graphs show the performence of Gradient Boosting Tree model.
 
-![cm](https://github.com/adamskel78/SHAX_group_project/blob/tree/master/Data_Visuals/confusion_matrix.png)
+![cm](https://github.com/adamskel78/SHAX_group_project/blob/master/Data_Visuals/confusion_matrix.png)
 
-![learning rate](https://github.com/adamskel78/SHAX_group_project/blob/tree/master/Data_Visuals/learning_rate_only.png) 
+![learning rate](https://github.com/adamskel78/SHAX_group_project/blob/master/Data_Visuals/learning_rate_only.png) 
 
-![parameter tune](https://github.com/adamskel78/SHAX_group_project/blob/tree/master/Data_Visuals/max_depth_vs_learning_rate.png) 
+![parameter tune](https://github.com/adamskel78/SHAX_group_project/blob/master/Data_Visuals/max_depth_vs_learning_rate.png) 
 
-![learning curve](https://github.com/adamskel78/SHAX_group_project/blob/tree/master/Data_Visuals/learning_curve.png)
+![learning curve](https://github.com/adamskel78/SHAX_group_project/blob/master/Data_Visuals/learning_curve.png)
