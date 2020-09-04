@@ -106,6 +106,7 @@ We tuned parameters for the six models to evaluate them and reduce the risk of o
  - Accuracy (training): 0.716
  - Accuracy (testing): 0.715
 
+## Model Evaluation
 Among all six models, the tree models' performence are better than other models.
 We choose Gradient Boosting Tree which got highest testing accuracy (0.734) among six models. 
 
