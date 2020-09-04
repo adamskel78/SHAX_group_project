@@ -110,7 +110,7 @@ We tuned parameters for the six models to evaluate them and reduce the risk of o
 Among all six models, the tree models' performence are better than other models.
 We choose Gradient Boosting Tree which got highest testing accuracy (0.734) among six models. 
 
-The following table shows model performence and comparisons of limitations and benefits.
+ - The following table shows model performence and comparisons of limitations and benefits.
 
 | Machine Learning Model   | Accuracy | Benefits | limitations |
 | :------------------------| ---------| ---------| :-----------|
@@ -121,6 +121,7 @@ The following table shows model performence and comparisons of limitations and b
 | KNN                      | Training:69.8%; Testing: 68.4%  | Easy to implement. No assumption about data.| Curse of dimensionality  |
 | SVM                      | Training:71.6%; Testing: 71.5%  | Computation faster. | Poor performence.|
 
+ - The following graphs show the performence of Gradient Boosting Tree model.
 ![cm](https://github.com/adamskel78/SHAX_group_project/blob/Xiao_Meng/Data_Visuals/confusion_matrix.png)
 ![cm](https://github.com/adamskel78/SHAX_group_project/blob/Xiao_Meng/Data_Visuals/learning_rate_only.png)
 ![cm](https://github.com/adamskel78/SHAX_group_project/blob/Xiao_Meng/Data_Visuals/max_depth_vs_learning_rate.png)
