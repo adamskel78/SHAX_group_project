@@ -41,10 +41,10 @@ The following chart shows the scales of the features.
 We provide visualization and Statistics about each variable.
 We visualize the relationship between variables.
 
-![Gender](https://github.com/adamskel78/SHAX_group_project/blob/shannon/Data_Visuals/Gender_.png)
-
 ![Cardio Across Ages](https://github.com/adamskel78/SHAX_group_project/blob/shannon/Data_Visuals/Card_Across_Ages.png)
-- Looking at this bar graph, we see that the orange bar indicating presence of CVD starts surpassing the blue bar indicating absence of CVD at age 53, but at age 54 the blue bar surpasses the orange bar. It isn't until age 55 that the orange bar surpasses the blue bar consistently. This indicates that people older than 55 are more at risk of having CVD.
+- In the bar graph, orange bars indicate presence of CVD and blue bars indicate absence of CVD.
+- We found when age is higher, the percentage of people who have CVD is higher.
+- In this dataset, people older than 55 are more at risk of having CVD.
 
 ## Variable Reduction
 
@@ -128,6 +128,8 @@ We choose Gradient Boosting Tree which got highest testing accuracy (0.734) amon
 
 ![cm](https://github.com/adamskel78/SHAX_group_project/blob/Xiao_Meng/Data_Visuals/confusion_matrix.png)
 
-![learning rate](https://github.com/adamskel78/SHAX_group_project/blob/Xiao_Meng/Data_Visuals/learning_rate_only.png) ![parameter tune](https://github.com/adamskel78/SHAX_group_project/blob/Xiao_Meng/Data_Visuals/max_depth_vs_learning_rate.png) 
+![learning rate](https://github.com/adamskel78/SHAX_group_project/blob/Xiao_Meng/Data_Visuals/learning_rate_only.png) 
+
+![parameter tune](https://github.com/adamskel78/SHAX_group_project/blob/Xiao_Meng/Data_Visuals/max_depth_vs_learning_rate.png) 
 
 ![learning curve](https://github.com/adamskel78/SHAX_group_project/blob/Xiao_Meng/Data_Visuals/GradientBoosting_Learning_Curve.png)
