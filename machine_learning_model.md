@@ -107,7 +107,7 @@ We tuned parameters for the six models to evaluate them and reduce the risk of o
  - Accuracy (testing): 0.715
 
 Among all six models, the tree models' performence are better than other models.
-Randon Forest and Gradient Boosting Tree both got 0.733 testing accuracy. 
+We choose Gradient Boosting Tree which got highest testing accuracy (0.734) among six models. 
 
 The following table shows model performence and comparisons of limitations and benefits.
 
