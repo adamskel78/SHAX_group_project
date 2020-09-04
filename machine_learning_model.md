@@ -71,7 +71,7 @@ From EDA, we found some of the features do not show strong correlations to the t
 Thus, we used the information from correlation matrix and Recursive Feature Elimination to determine which features to include in our machine learning model.
 
 #### Correlation Matrix
-![Correlation Heat Map]()
+![Correlation Heat Map](https://github.com/adamskel78/SHAX_group_project/blob/master/Data_Visuals/Corr_Matrix_Heat_Map.png)
 The last column on both axes is our target variable, cardio. 
 Correlation matrix shows that age (r = 0.24), weight (r = 0.18), ap_hi (0.054), ap_lo (0.066), cholesterol (r = 0.22), and glucose (r = 0.089) are correlated with carido. 
 Thus, we considered these features for our machine learning models.
