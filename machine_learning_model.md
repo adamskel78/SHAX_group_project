@@ -74,37 +74,37 @@ We conducted 10-StratifiedKFold crossvalidation and use neg_log_loss to evaluate
 
 We tuned parameters for the five models to evaluate them and reduce the risk of overfitting problem.
 ## Logistic Model
- -We trained Logistic Model using ‘lbfgs’ solver and max_iter equals 200. 
- -Logistic regression model accuracy is 0.719.
+ - We trained Logistic Model using ‘lbfgs’ solver and max_iter equals 200. 
+ - Logistic regression model accuracy is 0.719.
 
 ## Decision Tree
-We tuned max_depth and max_features to evaluate Decision Tree model. 
-max_depth=4 and max_features=5 are chosen.
-Accuracy (training): 0.733
-Accuracy (testing): 0.731
+ - We tuned max_depth and max_features to evaluate Decision Tree model. 
+ - max_depth=4 and max_features=5 are chosen.
+ - Accuracy (training): 0.733
+ - Accuracy (testing): 0.731
 
 ## Random Forest
-We tuned n_estimators and max_depth to evaluate Randon Forest model.
-n_estimators=200 and max_depth=8 are chosen.
-Accuracy (training): 0.754
-Accuracy (testing): 0.733 
+ - We tuned n_estimators and max_depth to evaluate Randon Forest model.
+ - n_estimators=200 and max_depth=8 are chosen.
+ - Accuracy (training): 0.754
+ - Accuracy (testing): 0.733 
 
 ## Gradient Boosting Tree
-We tuned max_depth and learning_rate to evaluate Gradient Boosting Tree.
-max_depth=5 and learning_rate=0.05 are chosen.
-Accuracy (training): 0.739
-Accuracy (validation): 0.734
+ - We tuned max_depth and learning_rate to evaluate Gradient Boosting Tree.
+ - max_depth=5 and learning_rate=0.05 are chosen.
+ - Accuracy (training): 0.739
+ - Accuracy (validation): 0.734
 
 ## KNN
-We tuned n_neighbors for KNN model.
-n_neighbors=50 is chosen.
-Accuracy (training): 0.698
-Accuracy (testing): 0.684
+ - We tuned n_neighbors for KNN model.
+ - n_neighbors=50 is chosen.
+ - Accuracy (training): 0.698
+ - Accuracy (testing): 0.684
 
 ## SVM
-We tuned the values of C and gamma for SVM model.
-Accuracy (training): 0.716
-Accuracy (testing): 0.715
+ - We tuned the values of C and gamma for SVM model.
+ - Accuracy (training): 0.716
+ - Accuracy (testing): 0.715
 
 Among all six models, the tree models' performence are better than other models.
 Randon Forest and Gradient Boosting Tree both got 0.733 testing accuracy. 
