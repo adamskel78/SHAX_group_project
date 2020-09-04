@@ -45,7 +45,7 @@ We visualize the relationship between variables.
 
 ![Cardio Across Ages](https://github.com/adamskel78/SHAX_group_project/blob/shannon/Data_Visuals/Card_Across_Ages.png)
 
-### Findings
+Findings
 
 - In the bar graph, orange bars indicate presence of CVD and blue bars indicate absence of CVD.
 - We found when age is higher, the percentage of people who have CVD is higher.
@@ -53,9 +53,9 @@ We visualize the relationship between variables.
 
 2.  Cholesterol and CVD
 
-![Cardio and Cholesterol](https://github.com/adamskel78/SHAX_group_project/blob/shannon/Data_Visuals/Xiao_Meng/Data_Visuals/Choles_Cardio.png)
+![Cardio and Cholesterol](https://github.com/adamskel78/SHAX_group_project/blob/Xiao_Meng/Data_Visuals/Choles_Cardio.png)
 
-### Findings
+Findings
 
 - The higher the cholesterol level, the larger the percentage of people who have CVD.
 
