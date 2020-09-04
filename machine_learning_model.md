@@ -7,8 +7,8 @@
 There are 70,000 patients with 11 features (ID excluded), and one target variable.
 
 Features:
-| Features                  | Type of Feature        |   Type    | Unit  | Mean | Std |
-| :----------------         | --------------------   | ----------|-----  |------|----|
+|       Features            |   Type of Feature      |   Type    | Unit  | Mean | Std |
+| :-------------------------| --------------------   | ----------|-----  |------|----|
 | ID                        | Identification feature | Integer   |       |      |    |
 | Age                       | Objective feature      | Integer   |  days | 53  | 6.8 |
 | Height                    | Objective feature      | Integer   |  cm   | 164  | 8.2 |
