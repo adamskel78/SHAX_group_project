@@ -7,20 +7,20 @@
 There are 70,000 patients with 11 features (ID excluded), and one target variable.
 
 Features:
-| Features                  | Type of Feature        |   Type    | Unit  |
-| :----------------         | :--------------------: | :-------: |:----- |
-| ID                        | Identification feature | Integer   |       |
-| Age                       | Objective feature      | Integer   |  days |
-| Height                    | Objective feature      | Integer   |  cm   |
-| Weight                    | Objective feature      | Float     |  kg   |
-| Gender                    | Objective feature      | Categorical|1 - Female, 2 - Male|
-| Systolic Blood Pressure   | Examination Feature    | Integer   | ap_hi |
-| Diastolic Blood Pressure  | Examination Feature    | Integer   | ap_lo |
-| Cholesterol               | Examination Feature    | Categorical |1 - Normal, 2 - Above normal, 3 - Well Above Normal|
-| Glucose                   | Examination Feature    | Categorical |1 - Normal, 2 - Above Normal, 3 - Well Above Normal|
-| Smoking                   | Subjective Feature     | Binary |0 - Does Not smoke, 1 - Smokes|
-| Alcohol intake            | Subjective Feature     | Binary |0 - Does Not Drink Alcohol, 1 - Drinks| 
-| Physical activity         | Subjective Feature     | Binary |0 - Does Not Exercise, 1 - Exercises|
+| Features                  | Type of Feature        |   Type    | Unit  | Mean | Std |
+| :----------------         | --------------------   | ----------|-----  |------|----|
+| ID                        | Identification feature | Integer   |       |      |    |
+| Age                       | Objective feature      | Integer   |  days | 53  | 6.8 |
+| Height                    | Objective feature      | Integer   |  cm   | 164  | 8.2 |
+| Weight                    | Objective feature      | Float     |  kg   | 74   | 14.4 |
+| Gender                    | Objective feature      | Categorical|1 - Female, 2 - Male| 1.35 | 0.48 |
+| Systolic Blood Pressure   | Examination Feature    | Integer   | ap_hi | 128.8 | 154 | 
+| Diastolic Blood Pressure  | Examination Feature    | Integer   | ap_lo | 96.6 | 188.5 |
+| Cholesterol               | Examination Feature    | Categorical |1 - Normal, 2 - Above normal, 3 - Well Above Normal| 1.37 | 0.68|
+| Glucose                   | Examination Feature    | Categorical |1 - Normal, 2 - Above Normal, 3 - Well Above Normal| 1.37 | 0.57 |
+| Smoking                   | Subjective Feature     | Binary |0 - Does Not smoke, 1 - Smokes| 0.09 | 0.28 |
+| Alcohol intake            | Subjective Feature     | Binary |0 - Does Not Drink Alcohol, 1 - Drinks| 0.05 | 0.23 |
+| Physical activity         | Subjective Feature     | Binary |0 - Does Not Exercise, 1 - Exercises| 0.8 | 0.4|
 | Presence or Absence of Cardiovascular Disease | Target Variable | Binary |0 - Absence of Cardiovascular Disease, 1 - Presence of Cardiovascular Disease|
 
 
@@ -41,13 +41,13 @@ The following chart shows the scales of the features.
 We provide visualization and Statistics about each variable.
 We visualize the relationship between variables.
 
-### Age and CVD
+1. Age and CVD
 ![Cardio Across Ages](https://github.com/adamskel78/SHAX_group_project/blob/shannon/Data_Visuals/Card_Across_Ages.png)
 - In the bar graph, orange bars indicate presence of CVD and blue bars indicate absence of CVD.
 - We found when age is higher, the percentage of people who have CVD is higher.
 - In this dataset, people older than 55 are more at risk of having CVD.
 
-### 
+2.  
 
 ## Variable Reduction
 
