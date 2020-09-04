@@ -128,15 +128,6 @@ We choose Gradient Boosting Tree which got highest testing accuracy (0.734) amon
 
 ![cm](https://github.com/adamskel78/SHAX_group_project/blob/Xiao_Meng/Data_Visuals/confusion_matrix.png)
 
-![learning rate](https://github.com/adamskel78/SHAX_group_project/blob/Xiao_Meng/Data_Visuals/learning_rate_only.png)
+![learning rate](https://github.com/adamskel78/SHAX_group_project/blob/Xiao_Meng/Data_Visuals/learning_rate_only.png) ![parameter tune](https://github.com/adamskel78/SHAX_group_project/blob/Xiao_Meng/Data_Visuals/max_depth_vs_learning_rate.png) 
 
-<table>
-<tr>
-<td>
-![parameter tune](https://github.com/adamskel78/SHAX_group_project/blob/Xiao_Meng/Data_Visuals/max_depth_vs_learning_rate.png) 
-</td>
-<td>
 ![learning curve](https://github.com/adamskel78/SHAX_group_project/blob/Xiao_Meng/Data_Visuals/GradientBoosting_Learning_Curve.png)
-</td>
-</tr>
-</table>
