@@ -117,8 +117,8 @@ The following table shows model performence and comparisons of limitations and b
 | :------------------------| ---------| ---------| :-----------|
 | Logistic Regression      | 71.9%    | Easy to implement. Tuning of hyperparameters not needed.| Lack flexibility. Might suffer from model mis-specification.|
 | Decision Tree            | Training:73.3%; Testing: 72.9%  | Easy to interpret.| Prone to overfitting. |
-| Random Forest            | Training:73.1%; Testing: 73.2%  | Reduce the risk of overfitting and hgher accuracy than Decision Tree model.| Computation relatively expensive.                               |
-| Gradient Boosting Tree   | Training:73.6%; Testing: 73.4%  | Good model performence. Less prone to overfitting.                         | Hard to tune as there are too many hyperparameters              |
-| KNN                      | Training:69.8%; Testing: 68.4%  | Easy to implement. No assumption about data.                               | Curse of dimensionality                                         |
-| SVM                      | Training:71.6%; Testing: 71.5%  | Computation faster.                                                        | Poor performence.                                              |
+| Random Forest            | Training:73.1%; Testing: 73.2%  | Reduce the risk of overfitting and hgher accuracy than Decision Tree model.| Computation relatively expensive.|
+| Gradient Boosting Tree   | Training:73.6%; Testing: 73.4%  | Good model performence. Less prone to overfitting.| Hard to tune as there are too many hyperparameters. |
+| KNN                      | Training:69.8%; Testing: 68.4%  | Easy to implement. No assumption about data.| Curse of dimensionality  |
+| SVM                      | Training:71.6%; Testing: 71.5%  | Computation faster. | Poor performence.|
 
