@@ -122,6 +122,7 @@ We choose Gradient Boosting Tree which got highest testing accuracy (0.734) amon
 | SVM                      | Training:71.6%; Testing: 71.5%  | Computation faster. | Poor performence.|
 
  - The following graphs show the performence of Gradient Boosting Tree model.
+ 
 ![cm](https://github.com/adamskel78/SHAX_group_project/blob/Xiao_Meng/Data_Visuals/confusion_matrix.png)
 ![cm](https://github.com/adamskel78/SHAX_group_project/blob/Xiao_Meng/Data_Visuals/learning_rate_only.png)
 ![cm](https://github.com/adamskel78/SHAX_group_project/blob/Xiao_Meng/Data_Visuals/max_depth_vs_learning_rate.png)
