@@ -1,7 +1,7 @@
 # Technologies Used
 
 ## Data Cleaning and Analysis
-We are used Python to analysis our data. For our dataset, the "age" column unit is days, so we converted days to years. We used matplotlib and seaborn to visualize our data. Pandas to get our csv file into a dataframe and used both numpy and pandas to interact with the dataframe.
+We are using Python to analysis our data. For our dataset, the "age" column unit is days, so we converted days to years. We used matplotlib and seaborn to visualize our data. Pandas to get our csv file into a dataframe and used both numpy and pandas to interact with the dataframe.
 
 Python Libraries:
 - numpy
