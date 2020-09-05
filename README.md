@@ -29,10 +29,8 @@ We want to present this through a web application where users interact with the 
 - Create web app to display an interactive predictor of cardiovascular disease
 
 # Question 
-
-- What machine learning model has the highest accuracy of predicting presence of cardiovascular disease, and can it predict presence of cardiovascular disease with moderate accuracy?
-
-- What health factors are correlated with having cardiovascular disease?
+- What health factors are correlated with Cardiovascular Disease?
+- How to help people prevent Cardiovascular Disease?
 
 # Data
 [Kaggle's Cardiovascular Disease Dataset](https://www.kaggle.com/sulianova/cardiovascular-disease-dataset/notebooks)
@@ -83,14 +81,17 @@ In RFE, we used it on RandonForestClassifier(), you can see from our Cardiovascu
 
 
 # Machine Learning Models
-We performed the following machine learning models[3]:
-| Machine Learning Model| Accuracy  | What it is     | Benefits |Shortcomings |
-| :---------------------| ----------| ---------------|----------| :---------- |
-| Logistic Regression   |Testing: 71.9%|Classification algorithm that classifies binary outcomes by using a sigmoid function to map the predicted values to probabilities.|<ul><li>Simple to implement</li><li>Effective<li>Feature scaling unnessecary</li></ul>|<ul><li>Poor performance with irrelevant and high correlate features</li><li>High reliance on proper presentation of data</li></ul>|
-| K-Nearest Neighbor     |<ul><li>Training: 69.8%</li><li>Testing: 68.4%</li></ul>|Classification algorithm that assumes that similar points lie close in proximity and groups them according to distance from one another.|<ul><li>Simpe to understand and implement</li><li>Constantly evolving when new data is inputed</li></ul>|<ul><li>Computationally expensive</li><li>Scaling is required</li><li>Sensitive to outliers and missing values</li><li>Does not work well with imbalance data</li></ul>
-|Decision Tree|<ul><li>Training: 73.3%</li><li>Testing: 72.9%</li></ul>|Supervised algorithm with tree-like structures with its root nod on top; it's mostly used for classification.|<ul><li>Normalization or scaling of data not needed.</li><li>Handling missing values</li><li>Automatic Feature selection : Irrelevant features won’t affect decision trees</li></ul>|<ul><li>Prone to overfitting.</li><li>Sensitive to data. If data changes slightly, the outcomes can change to a very large extent.</li><li>Sensitive to outliers and missing values</li><li>Computationally Expensive</li></ul>|
-| Random Forest         | <ul><li>Training: 73%</li><li>Testing: 72.9%</li></ul>|Bagging algorithm that builds multiple decision trees and merges them together to get a more accurate and stable predict using bagging (builds many independent predictors and combines them using averaging techinque).| <ul><li>Overcome overfitting by averaging.</li><li>Less variance, high accuracy even with missing data, scaling unnessecary</li></ul>|<ul><li>Computationally expensive<li><li>Less intutive with large datasets</li><li>Features need to have some predictive power else model won't work</li></ul>|
-| Gradient Boosting Classifer|<ul><li>Training: 73.5%</li><li>Testing: 73.4%</li></ul>|Boosting algorithm in which the predictors are made sequentially.|<ul><li>Good accuracy score/<li>Data pre-processing not needed</li><li>Handles missing data</li></ul>|<ul><li>Overfitting</li><li>Computationally expensive</li><li>Less interpretable</li></ul>|
+We performed the following machine learning models:
+| Machine Learning Model| Training Accuracy| Testing Accuracy| Ranking of Highest Accuracy|
+| :---------------------| :----------------| :---------------|:---------------------------|
+| Logistic Regression   |                  |     72.0%       |        5th                 |
+| K-Nearest Neighbor    |      70.1%       |     68.4%       |        6th                 |
+| Support Vector Machine (SVM)|  73.0%     |     73.0%       |        4th                 |
+| Decision Tree         |      73.3%       |     73.2%       |        3rd                 |
+| Random Forest         |      75.2%       |     73.3%       |        2nd                 |
+| Gradient Boosting Classifer| 73.9%       |     73.4%       |        1st                 |
+
+# Database
 
 
 # References
