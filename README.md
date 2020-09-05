@@ -58,7 +58,7 @@ Features:
 There weren't any null values, but there were 24 duplicate values, so we removed those and ended with 11 features and 69,976 patients.
 
 We split our training and testing sets into 25 and 75 respectively and scaled the X_train and X_test due to is abnormal shape seen below.
-![Hist_Features](https://github.com/adamskel78/SHAX_group_project/blob/shannon/Data_Visuals/His_feature.png)
+![Hist_Features](https://github.com/adamskel78/SHAX_group_project/blob/shannon/Data_Visuals/His_features.png)
 
 # Feature Engineering / Feature Selection
 We used two methods to determine which features to include in our machine learning model: correlation matrix and recursive feature elimination.
@@ -92,7 +92,7 @@ We performed the following machine learning models:
 | Gradient Boosting Classifer| 73.9%       |     73.4%       |        1st                 |
 
 # Database
-
+![ERD](https://github.com/adamskel78/SHAX_group_project/blob/shannon/ERD_SHAX_Project.png)
 
 # References
 - [1] Center for Disease Control and Prevention. 2020. Heart Disease Facts | Cdc.Gov. [online] Available at: <https://www.cdc.gov/heartdisease/facts.htm> [Accessed 29 Aug 2020].
