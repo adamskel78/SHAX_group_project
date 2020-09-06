@@ -145,7 +145,8 @@ We choose Gradient Boosting Tree which got highest testing accuracy (0.734) amon
 
 ![cm](https://github.com/adamskel78/SHAX_group_project/blob/master/Data_Visuals/confusion_matrix.png)
 
-          | |  precision |  recall | f1-score | support |
+          |    precision |  recall | f1-score | support |
+          | :------------| --------| ---------| :-------|
 
           |0|    | 0.71 |    0.78  |   0.74    | 8609 |
           |1|    | 0.76 |    0.69  |   0.72    | 8891 |
