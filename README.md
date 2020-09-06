@@ -10,6 +10,8 @@ We want to present this through a web application where users interact with the 
 # Presentation
 [Presentation](https://drive.google.com/file/d/1I0HCk8ESBiMLfeqSvpk2WW1apKL-Ufx2/view?usp=sharing)
 
+# Web Application
+[Web App](https://cvdchecker.herokuapp.com/)
 # Technology
 [Technology Used](https://github.com/adamskel78/SHAX_group_project/blob/shannon/technology.md)
 
@@ -82,14 +84,15 @@ In RFE, we used it on RandonForestClassifier(), you can see from our Cardiovascu
 
 # Machine Learning Models
 We performed the following machine learning models:
-| Machine Learning Model| Training Accuracy| Testing Accuracy| Ranking of Highest Accuracy|
-| :---------------------| :----------------| :---------------|:---------------------------|
-| Logistic Regression   |                  |     72.0%       |        5th                 |
-| K-Nearest Neighbor    |      70.1%       |     68.4%       |        6th                 |
-| Support Vector Machine (SVM)|  73.0%     |     73.0%       |        4th                 |
-| Decision Tree         |      73.3%       |     73.2%       |        3rd                 |
-| Random Forest         |      75.2%       |     73.3%       |        2nd                 |
-| Gradient Boosting Classifer| 73.9%       |     73.4%       |        1st                 |
+| Machine Learning Model   | Accuracy                        | Benefits                                                                   | limitations                                                     |
+| :------------------------| --------------------------------| ---------------------------------------------------------------------------| :---------------------------------------------------------------|
+| Logistic Regression      | 71.9%                           | Easy to implement. Tuning of hyperparameters not needed.                   | Lack flexibility. Might suffer from model mis-specification.    |
+| Decision Tree            | Training:73.3%; Testing: 72.9%  | Easy to interpret.                                                         | Prone to overfitting.                                           |
+| Random Forest            | Training:73.1%; Testing: 73.2%  | Reduce the risk of overfitting and hgher accuracy than Decision Tree model.| Computation relatively expensive.                               |
+| Gradient Boosting Tree   | Training:73.6%; Testing: 73.4%  | Good model performence. Less prone to overfitting.                         | Hard to tune as there are too many hyperparameters              |
+| KNN                      | Training:69.8%; Testing: 68.4%  | Easy to implement. No assumption about data.                               | Curse of dimensionality                                         |
+| SVM                      | Training:71.6%; Testing: 71.5%  | Computation faster.                                                        | Poor performence.                                              |
+
 
 # Database
 ![ERD](https://github.com/adamskel78/SHAX_group_project/blob/shannon/ERD_SHAX_Project.png)
