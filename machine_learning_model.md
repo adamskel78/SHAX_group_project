@@ -131,7 +131,7 @@ We choose Gradient Boosting Tree which got highest testing accuracy (0.734) amon
 - The following table shows model performence and comparisons of limitations and benefits.
 
 | Machine Learning Model   | Accuracy | Benefits | limitations |
-| :------------------------| ---------| ---------| :-----------|
+| :------------------------|----------|----------|-------------|
 | Logistic Regression      | 71.9%    | Easy to implement. Tuning of hyperparameters not needed.| Lack flexibility. Might suffer from model mis-specification.|
 | Decision Tree            | Training:73.3%; Testing: 72.9%  | Easy to interpret.| Prone to overfitting. |
 | Random Forest            | Training:73.1%; Testing: 73.2%  | Reduce the risk of overfitting and hgher accuracy than Decision Tree model.| Computation relatively expensive.|
@@ -144,6 +144,14 @@ We choose Gradient Boosting Tree which got highest testing accuracy (0.734) amon
 - The following graphs show the performence of Gradient Boosting Tree model.
 
 ![cm](https://github.com/adamskel78/SHAX_group_project/blob/master/Data_Visuals/confusion_matrix.png)
+
+  |       |    precision |  recall | f1-score | support |
+  | :-----| -------------| --------|----------|---------|
+  | 0     |    0.71    |   0.78    |   0.74   | 8609 |
+  | 1     |    0.76    |   0.69    |   0.72   | 8891 |
+  | accuracy |          |          |   0.73   | 17500 |
+  | macro avg |    0.74 |   0.73   |   0.73   | 17500 |
+  | weighted avg | 0.74 |   0.73   |   0.73   | 17500 |
 
 ![learning rate](https://github.com/adamskel78/SHAX_group_project/blob/master/Data_Visuals/learning_rate_only.png) 
 
