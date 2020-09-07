@@ -12,7 +12,7 @@ We want to present this through a web application where users interact with the 
 
 # Web Application and Dashboard
 - [Web App](https://cvdchecker.herokuapp.com/)
-- [Video with Navigation](https://www.loom.com/share/76c3b51424e74aac95af93201fbae67d)
+- [Video Navigation](https://www.loom.com/share/76c3b51424e74aac95af93201fbae67d)
 
 # Technology
 [Technology Used](https://github.com/adamskel78/SHAX_group_project/blob/shannon/technology.md)
