@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Cardiovascular Disease Checker</title>
+
+    <link
+        rel="stylesheet"
+        href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous"
+    /> -->
+
+    
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Cardiovascular Disease Checker</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+      
+        <style>
+        .jumbotron
+          {
+          color:white;
+          background-color:rgb(120, 182, 161);
+          }
+      
+        .chart {
+        max-height: calc(200px + 20px) !important;
+        overflow:hidden;
+        }
+      
+        </style>  
+
+    <link rel="stylesheet" href="static/css/style.css">
+
+  </head>
+
+    <body>
+        <div class="container">
+            <div class="row">
+              <div class="col-md-12 jumbotron text-center">
+                <h1>Cardiovascular Disease Checker</h1>
+                <p>Use the interactive form below to get the probability of getting Cardiovascular Disease</p>
+                <p>Use the interactive charts below check the dataset</p>
+              </div>
+            </div>
+
+                <div class="row">
+                    <div class="col-md-3" style="background-color:rgb(66, 149, 182)">
+                        <!-- <form class="bg-dark" > -->
+                        <form style="background-color:rgb(66, 149, 182)"> 
+                            <h4>Please Input Your Data Here</h4>
+                            <ul class="list-group">   
+                                <li class="list-group-item" style="background-color:lightyellow">
+                                    <!-- <div class="form-group" style="display:flex; flex-direction: row; justify-content: center; align-items: center">
+                                        <label for="date">Enter Date </label>
+                                        <input type="text" class="form-control form-control-sm input-sm"  placeholder="1/10/2010" id="datetime" />
+                                    </div> -->
+                                    <label for="age" style="color:lightslategray">Enter age</label>
+                                    <input type="text" class="form-control form-control-sm"  placeholder="enter a number here" id="age"/>
+                                    <!-- <label for="gender" style="color:lightslategray;">Enter gender: Female=1, Male=2</label>
+                                    <input type="text" class="form-control form-control-sm" placeholder="enter 1 or 2" id="gender" /> -->
+                                    <label for="height" style ="color:lightslategray">Enter height</label>
+                                    <input type="text" class="form-control form-control-sm" placeholder="enter cm here" id="height" />
+                                    <label for="weight" style ="color:lightslategray">Enter weight</label>
+                                    <input type="text" class="form-control form-control-sm" placeholder="enter kg here" id="weight" />
+                                    <label for="ap_hi" style ="color:lightslategray">Enter ap_hi</label>
+                                    <input type="text" class="form-control form-control-sm" placeholder="enter a number here" id="ap_hi" />
+                                    <label for="ap_lo" style ="color:lightslategray">Enter ap_lo</label>
+                                    <input type="text" class="form-control form-control-sm" placeholder="enter a number here" id="ap_lo" />
+                                    <label for="cholesterol" style ="color:lightslategray">Enter cholesterol</label>
+                                    <input type="text" class="form-control form-control-sm" placeholder="enter 1,2 or 3" id="cholesterol" />
+                                    <!-- <label for="gluc">Enter gluc</label>
+                                    <input type="text" class="form-control form-control-sm" placeholder="enter 0 or 1" id="gluc" />
+                                    <label for="smoke">Enter smoke: Yes=1, No=0</label>
+                                    <input type="text" class="form-control form-control-sm" placeholder="enter 0 or 1" id="smoke" />
+                                    <label for="alco">Enter alco: Yes=1, No=0</label>
+                                    <input type="text" class="form-control form-control-sm" placeholder="enter 0 or 1" id="alco" />
+                                    <label for="active">Enter active: Yes=1, No=0</label>
+                                    <input type="text" class="form-control form-control-sm" placeholder="enter 0 or 1" id="active" /> -->
+        
+                                </li>
+                                <li class="list-group-item">
+                                    <button id="submit-btn" type="button" style="background-color:rgb(66, 149, 182)" >Submit</button>
+                                </li>
+                            </ul>
+                        </form>
+                    </div>
+        
+                    <div class="col-md-3" style="background-color:rgb(103, 172, 199);">
+                        <table class="table table-striped">
+                            <thead>
+                                <tr>
+                                <th>Probobility of Cardiovascular Disease: </th>
+                                </tr>
+                                <tr><td id='results'></td></tr>
+                                <tr>
+                                  <th>Suggestions: </th>
+                                </tr>
+                                <tr><td id='suggestion'></td></tr>
+                                <tr>
+                                  <th>Gender:
+                                    <ul>
+                                      <li>1 - Female</li> 
+                                      <li>2 - Male</li>
+                                    </ul>
+                                  </th>
+                                </tr>
+                                <tr>
+                                  <th>Cholesterol:
+                                    <ul>
+                                      <li>1 - Normal</li> 
+                                      <li>2 - Above Normal</li>
+                                      <li>3 - Well Above Normal</li>
+                                    </ul>
+                                  </th>
+                                </tr>
+                                <tr>
+                                  <th>
+                                  Disclaimer: This is not an official recommendation of what you should do. Please call a medical professional if you are at risk or think you may be at risk of cardiovascular disease.                 
+                                </th>
+                                </tr>
+                            </thead>
+                        </table>
+                    </div>
+
+                    <div class="col-md-2">
+                        <div class="well" style= "background-color:rgb(117, 191, 218); color:black">
+                          <h5>Click the Button to See a Random ID's Record: </h5>
+                          <button id="filter-btn" type="button" onchange="randomValue()" style="background-color:rgb(75, 144, 172)" >Filter</button>
+                        </div>
+                        <div class="panel panel-primary">
+                          <div class="panel-heading" style= "background-color:rgb(117, 191, 218); color:black">
+                            <h3 class="panel-title">Demographic Info</h3>
+                          </div>
+                            <div id="sample-metadata" class="panel-body" style = color:black></div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 chart">
+                      <div id="gauge"></div>
+                    </div>
+                  </div>
+              </div>
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <script src="static/js/app.js"></script>
+
+  </body>
