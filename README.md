@@ -11,7 +11,9 @@ We want to present this through a web application where users interact with the 
 [Presentation](https://drive.google.com/file/d/1I0HCk8ESBiMLfeqSvpk2WW1apKL-Ufx2/view?usp=sharing)
 
 # Web Application
-[Web App](https://cvdchecker.herokuapp.com/)
+[Web](https://cvdchecker.herokuapp.com/)
+[Video](https://www.loom.com/share/76c3b51424e74aac95af93201fbae67d)
+
 # Technology
 [Technology Used](https://github.com/adamskel78/SHAX_group_project/blob/shannon/technology.md)
 
