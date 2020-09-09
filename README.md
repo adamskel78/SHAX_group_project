@@ -79,10 +79,7 @@ The last column on both axes is our target variable, cardio. Age (r = 0.24), wei
 In RFE, we used it on RandonForestClassifier(), you can see from our Cardiovascular_Disease.ipynb file, there were five features ranked 1 while one ranked 2. Although RFE, suggests the optimal number of features to be 5, we picked 6 because we felt cholestrol, ranked second, was also an important indicator of cardiovascular disease. We decided to go with these six features: age, height, weight, ap_hi, ap_lo, cholesterol.
 
 # Exploratory Data Analysis (EDA)
-![Corr_Matrix_Select](https://github.com/adamskel78/SHAX_group_project/blob/shannon/Data_Visuals/Corr_Matrix_Selected.png)
-
 ![Cardio Across Ages](https://github.com/adamskel78/SHAX_group_project/blob/shannon/Data_Visuals/Card_Across_Ages.png)
-
 
 # Machine Learning Models
 We performed the following machine learning models:
