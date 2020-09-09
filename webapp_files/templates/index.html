@@ -101,14 +101,14 @@
                                   <th>Suggestions: </th>
                                 </tr>
                                 <tr><td id='suggestion'></td></tr>
-                                <tr>
-                                  <th>Gender:
+                                <!-- <tr>
+                                  <th>Cardio:
                                     <ul>
-                                      <li>1 - Female</li> 
-                                      <li>2 - Male</li>
+                                      <li>0 - no cardiovascular disease</li> 
+                                      <li>1 - has cardiovascular disease</li>
                                     </ul>
                                   </th>
-                                </tr>
+                                </tr> -->
                                 <tr>
                                   <th>Cholesterol:
                                     <ul>
@@ -118,6 +118,55 @@
                                     </ul>
                                   </th>
                                 </tr>
+                                <tr>
+                                  <th>Gluc:
+                                    <ul>
+                                      <li>1 - Normal</li> 
+                                      <li>2 - Above Normal</li>
+                                      <li>3 - Well Above Normal</li>
+                                    </ul>
+                                  </th>
+                                </tr>
+                                <tr>
+                                  <th>Gender:
+                                    <ul>
+                                      <li>1 - Female</li> 
+                                      <li>2 - Male</li>
+                                    </ul>
+                                  </th>
+                                </tr>
+                                <tr>
+                                  <th>Other variables are coded
+                                    <ul>
+                                      <li>0 - No</li> 
+                                      <li>1 - Yes</li>
+                                    </ul>
+                                  </th>
+                                  </tr>
+                                <!-- <tr>
+                                  <th>Smoke:
+                                    <ul>
+                                      <li>0 - Does not smoke</li> 
+                                      <li>1 - Smokes</li>
+                                    </ul>
+                                  </th>
+                                </tr>
+                                <tr>
+                                  <th>Alco:
+                                    <ul>
+                                      <li>0 - Does not drink</li> 
+                                      <li>1 - Drinks</li>
+                                    </ul>
+                                  </th>
+                                </tr>
+                                <tr>
+                                  <th>Active:
+                                    <ul>
+                                      <li>0 - Does not exercise</li> 
+                                      <li>1 - Exercises</li>
+                                    </ul>
+                                  </th>
+                                </tr> -->
                                 <tr>
                                   <th>
                                   Disclaimer: This is not an official recommendation of what you should do. Please call a medical professional if you are at risk or think you may be at risk of cardiovascular disease.                 
@@ -139,8 +188,9 @@
                             <div id="sample-metadata" class="panel-body" style = color:black></div>
                         </div>
                     </div>
-                    <div class="col-md-4 chart">
-                      <div id="gauge"></div>
+                    <div class="col-md-4">
+                      <div id="gauge">
+                      </div>
                     </div>
                   </div>
               </div>
