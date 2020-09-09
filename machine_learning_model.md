@@ -59,9 +59,21 @@ We visualize the relationship between variables.
 
     - The higher the cholesterol level, the larger the percentage of people who have CVD.
 
-3. Systolic Blood Pressure (ap_hi)
+3. Systolic Blood Pressure (ap_hi, ap_lo) and CVD
 
-4. Diastolic Blood Pressure (ap_lo)
+![Cardio and Blood Pressure](https://github.com/adamskel78/SHAX_group_project/blob/master/Data_Visuals/Blood_Cardio.png)
+
+  - Findings
+
+    - The higer the blood pressure, the higher the percentage of people who have CVD.
+
+4. BMI and CVD (BMI is computed )
+
+![Cardio and BMI](https://github.com/adamskel78/SHAX_group_project/blob/master/Data_Visuals/BMI_Cardio.png)
+
+  - Findings
+
+    - BMI is calculated by using weight (kg) / [height (m)]<sup>2</sup>. The higher the BMI, the higher the percentage of people who have CVD.
 
 ## Variable Reduction
 
