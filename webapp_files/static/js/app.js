@@ -44,14 +44,18 @@ function submitData() {
 }
 
 function optionChanged() {
-  // add a button
-  // onlicke listener on the button
-  // generate a random number 0-1000 
-  const randomNumber = Math.floor(Math.random() * 70000);
+
+   const randomNumber = Math.floor(Math.random() * 70000);
   // to make that call (to your app route) using that random number
   d3.json(`/record/${randomNumber}`).then((data) => {
     var resultArray = data.filter(sampleObj => sampleObj.id == randomNumber);
     console.log(resultArray);
+    if (resultArray.length==0){
+      console.log("no result")
+      optionChanged()
+    }
+    else {
+
     var result = resultArray[0];
     // console.log(result);
     var PANEL = d3.select("#sample-metadata");
@@ -126,7 +130,7 @@ function optionChanged() {
       };
 
       Plotly.newPlot('gauge', data, layout);
-
+    }
   });
 
 }
