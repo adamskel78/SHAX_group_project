@@ -13,7 +13,7 @@ We want to present this through a web application where users interact with the 
 
 # Web Application
 - [Web](https://cvdchecker.herokuapp.com/)
-- [Video](https://www.loom.com/share/293d6c86bfcc43a5a7c2f6c9933c640a)
+- [Video](https://www.loom.com/share/552d7d06910b482ebb966b879c0aca7c)
 
 # Technology
 [Technology Used](https://github.com/adamskel78/SHAX_group_project/blob/shannon/technology.md)
