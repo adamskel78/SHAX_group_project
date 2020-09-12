@@ -77,7 +77,7 @@ The last column on both axes is our target variable, cardio. Age (r = 0.24), wei
 "Recursive feature elimination (RFE) is a feature selection method that fits a model and removes the weakest feature (or features) until the specified number of features is reached." In this case, we are choose six feature. "Features are ranked by the model’s coef_ or feature_importances_ attributes, and by recursively eliminating a small number of features per loop, RFE attempts to eliminate dependencies and collinearity that may exist in the model (Yellowbrick)." 
 
 
-In RFE, we used it on RandonForestClassifier(), you can see from our Cardiovascular_Disease.ipynb file, there were five features ranked 1 while one ranked 2. Although RFE, suggests the optimal number of features to be 5, we picked 6 because we felt cholestrol, ranked second, was also an important indicator of cardiovascular disease. We decided to go with these six features: age, height, weight, ap_hi, ap_lo, cholesterol.
+In RFE, we used it on RandonForestClassifier(), you can see from our Cardiovascular_Disease.ipynb file, there were six features ranked first: age, height, weight, ap_hi, ap_lo, cholesterol.
 
 # Exploratory Data Analysis (EDA)
 ![Cardio Across Ages](https://github.com/adamskel78/SHAX_group_project/blob/shannon/Data_Visuals/Card_Across_Ages.png)
