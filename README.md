@@ -80,7 +80,7 @@ In RFE, we used it on RandonForestClassifier(), you can see from our Cardiovascu
 
 # Exploratory Data Analysis (EDA)
 ![Cardio Across Ages](https://github.com/adamskel78/SHAX_group_project/blob/shannon/Data_Visuals/Card_Across_Ages.png)
-- Look at our [jupyter notebook](https://github.com/adamskel78/SHAX_group_project/blob/shannon/Cardiovascular_Disease.ipynb) for more data exploration.
+- Look at our [jupyter notebook](https://github.com/adamskel78/SHAX_group_project/blob/master/Cardiovascular_Disease.ipynb) for more data exploration.
 
 # Machine Learning Models
 We performed the following machine learning models:
