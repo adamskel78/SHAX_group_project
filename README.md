@@ -9,6 +9,7 @@ We want to present this through a web application where users interact with the 
 
 # Presentation
 [Presentation](https://drive.google.com/file/d/1I0HCk8ESBiMLfeqSvpk2WW1apKL-Ufx2/view?usp=sharing)
+- Speaker Notes in the Google Slides
 
 # Web Application
 - [Web](https://cvdchecker.herokuapp.com/)
