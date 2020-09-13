@@ -30,7 +30,7 @@ SELECT pt.id, pt.age,
 INTO cardio_table
 FROM physical_traits_table AS pt
 LEFT JOIN medical_traits_table as mt 
-ON (pt.id = mt.id)
+ON (pt.id = mt.id);
 
 CREATE TABLE cardio_table (
   id INTEGER,
@@ -55,7 +55,7 @@ CREATE TABLE cardio_prob (
     id INTEGER,
     prob DECIMAL
     FOREIGN KEY (id) REFERENCES cardio_table (id)
-)
+);
 
 SELECT ct.id, ct.age,
     ct.gender, ct.height,
@@ -67,4 +67,4 @@ SELECT ct.id, ct.age,
 INTO cardio
 FROM cardio_table AS ct
 LEFT JOIN cardio_prob as cp 
-ON (ct.id = cp.id)
+ON (ct.id = cp.id);
