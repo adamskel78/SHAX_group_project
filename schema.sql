@@ -68,4 +68,3 @@ INTO cardio
 FROM cardio_table AS ct
 LEFT JOIN cardio_prob as cp 
 ON (ct.id = cp.id);
-
